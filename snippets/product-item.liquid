@@ -184,14 +184,8 @@
       
         <div class='review-badge'>
           
-        {% for i in product %}
-         <p> {{ i }} </p>
-        {% endfor %}
-          {% comment %}
-            This is a debug comment. I'm checking the value of some_variable.
-{{ product }}
-          {% endcomment %}
-          {%- if product.reviews_count == 0  -%}
+
+          {%- if product.reviews_count == -1  -%}
             No Reviews
           {%- else -%}
             <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
