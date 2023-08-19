@@ -786,37 +786,6 @@
           "grid_desktop_items_per_row": 4
         }
       },
-      "0b1509d0-2f43-4bdf-b3d9-863d9fe3a64e": {
-        "type": "slideshow",
-        "blocks": {
-          "0b1509d0-2f43-4bdf-b3d9-863d9fe3a64e-image-1": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/E_3.jpg",
-              "apply_overlay": true,
-              "content_position": "bottomLeft",
-              "subheading": "",
-              "title": "Fountains",
-              "button_1_text": "View All products",
-              "button_1_link": "shopify:\/\/collections\/marble-wall-clock",
-              "button_2_text": "",
-              "button_2_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "0b1509d0-2f43-4bdf-b3d9-863d9fe3a64e-image-1"
-        ],
-        "settings": {
-          "show_fullscreen": true,
-          "show_arrow": false,
-          "autoplay": true,
-          "cycle_speed": 5,
-          "text_color": "#ffffff",
-          "button_color": "#363636",
-          "button_background": "#ffffff"
-        }
-      },
       "8de3c2a3-2e30-49c7-aac7-5edf0510ec66": {
         "type": "background-video",
         "settings": {
@@ -829,6 +798,7 @@
         "settings": {
           "subheading": "Sub-heading",
           "title": "Title",
+          "image": "shopify:\/\/shop_images\/57d942b5-c025-425a-a8a4-d87c6a612631.png",
           "image_position": "right",
           "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>",
           "link_text": "",
@@ -842,7 +812,6 @@
       "736a51f2-b834-4f50-ac94-8275bf075ed3",
       "8c81192e-191e-4f5e-b689-9fede5d5974d",
       "39bf1be5-5952-4db2-b43f-48cc615d83b9",
-      "0b1509d0-2f43-4bdf-b3d9-863d9fe3a64e",
       "ef6cfcc2-9b1d-4c5a-962b-efc20e5b574f",
       "8de3c2a3-2e30-49c7-aac7-5edf0510ec66"
     ]
