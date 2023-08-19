@@ -183,7 +183,8 @@
         {%- endif -%}
       
         <div class='review-badge'>
- 
+          
+          <p> {{ product.reivews_count | append: '' }} </p>
           {%- if product.reviews_count == 0  -%}
             No Reviews
           {%- else -%}
