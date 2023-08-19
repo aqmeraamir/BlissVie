@@ -184,8 +184,9 @@
       
         <div class='review-badge'>
           
-         <p> {{ product }} </p>
-
+          {% for i in product %}
+         <p> {{ i }} </p>
+        {% endfor %}
           {%- if product.reviews_count == 0  -%}
             No Reviews
           {%- else -%}
