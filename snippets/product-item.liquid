@@ -184,9 +184,13 @@
       
         <div class='review-badge'>
           
-          {% for i in product %}
+        {% for i in product %}
          <p> {{ i }} </p>
         {% endfor %}
+          {% comment %}
+            This is a debug comment. I'm checking the value of some_variable.
+{{ product }}
+          {% endcomment %}
           {%- if product.reviews_count == 0  -%}
             No Reviews
           {%- else -%}
