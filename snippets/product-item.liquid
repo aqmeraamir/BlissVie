@@ -183,12 +183,12 @@
         {%- endif -%}
       
         <div class='review-badge'>
-          <p> {{ product }} </p>
-          {% if product.reviews_count == 0 %}
+          <p> {{ product.reviews_count }} </p>
+          {%- if product.reviews_count != blank -%}
             No Reviews
-          {% else %}
+          {%- else -%}
             <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
-          {% endif %}
+          {%- endif -%}
           
         </div>
       </div>
