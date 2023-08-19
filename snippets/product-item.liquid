@@ -184,8 +184,8 @@
       
         <div class='review-badge'>
           
-         {{ product.reivews_count | append: '' }} 
-         
+         {{ product.reivews[0] }} 
+
           {%- if product.reviews_count == 0  -%}
             No Reviews
           {%- else -%}
