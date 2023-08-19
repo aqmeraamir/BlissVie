@@ -10947,7 +10947,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 /* Review on product-item */
 
 .review-badge {
-  margin-top: 50px;
+  margin-top: 6px;
 }
 
 /* Product Hover */
