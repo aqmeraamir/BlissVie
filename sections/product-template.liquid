@@ -281,14 +281,21 @@
           {%- if product.template_suffix != 'coming-soon' -%}
             {%- render 'product-form', product: product -%}
           {%- endif -%}
-            <div class="Estimated_Delivery">
+          <div class="Estimated_Delivery">
 
-              {%- for tag in product.tags -%}
-                {%- if tag contains 'd20' -%}
-                  <strong><i class="fa-solid fa-truck"></i>    Standard Delivery: 20-30 days</strong> 
-                {%- else -%}
+              {% assign found_d20_tag = false %}
+
+              {% for tag in product.tags %}
+                {% if tag contains 'd20' %}
+                  {% assign found_d20_tag = true %}
+                  <strong><i class="fa-solid fa-truck"></i> Standard Delivery: 20-30 days</strong>
+                  {% break %} {%- comment -%} Exit the loop after finding the 'd20' tag {% endcomment -%}
+                {% endif %}
+              {% endfor %}
+              
+              {% unless found_d20_tag %}
                 <p>
-                  <strong><i class="fa-solid fa-truck"></i>    Standard Delivery: </strong> {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 259200  | date: "%a, %-d %B" }}<br>
+                  <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 259200  | date: "%a, %-d %B" }}<br>
                   <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
                   {% assign current_hour = "now" | date: "%H" | plus: 0 %}
                   {% assign current_minute = "now" | date: "%M" | plus: 0 %}
@@ -300,8 +307,8 @@
                     Order within {{ hours_until_delivery | plus: 24 }} hrs, {{ minutes_until_delivery | plus: 60 }} mins and get it <em>tomorrow!</em>
                   {% endif %}
                 </p>
-                {% endif %}
-              {% endfor %}
+              {% endunless %}
+              
 
          
           </div>
