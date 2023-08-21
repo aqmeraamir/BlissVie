@@ -283,7 +283,7 @@
           {%- endif -%}
             <div class="Estimated_Delivery">
               <p>
-                <strong><i class="fa-solid fa-truck"></i>    Standard Delivery: </strong> {{ "now" | date: "%s" | plus: 86400 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }}<br>
+                <strong><i class="fa-solid fa-truck"></i>    Standard Delivery: </strong> {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 259200  | date: "%a, %-d %B" }}<br>
                 <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
                 {% assign current_hour = "now" | date: "%H" | plus: 0 %}
                 {% assign current_minute = "now" | date: "%M" | plus: 0 %}
