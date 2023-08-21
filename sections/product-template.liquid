@@ -292,7 +292,7 @@
                 {% if current_hour < 12 %}
                   Order within {{ hours_until_delivery }} hours and <em>get it today!</em>
                 {% else %}
-                  Order within {{ hours_until_delivery | plus: 24 }} hours, {{ minutes_until_delivery | plus: 60 }} minutes and get it <em>tomorrow!</em>
+                  Order within {{ hours_until_delivery | plus: 24 }} hrs, {{ minutes_until_delivery | plus: 60 }} mins and get it <em>tomorrow!</em>
                 {% endif %}
               </p>
           </div>
