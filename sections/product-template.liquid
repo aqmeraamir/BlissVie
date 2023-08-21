@@ -284,6 +284,7 @@
             <div class="Estimated_Delivery">
 
               {%- for tag in product.tags -%}
+                <p> {{ tag }} </p>
                 {%- if tag contains 'd20' -%}
                 <p>
                   <strong><i class="fa-solid fa-truck"></i>    Standard Delivery: </strong> {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 259200  | date: "%a, %-d %B" }}<br>
