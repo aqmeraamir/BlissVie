@@ -281,20 +281,20 @@
           {%- if product.template_suffix != 'coming-soon' -%}
             {%- render 'product-form', product: product -%}
           {%- endif -%}
-                    <div class="Estimated_Delivery">
-<p>
-  <strong><i class="fa-solid fa-truck"></i>    Standard Delivery: </strong> {{ "now" | date: "%s" | plus: 86400 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }}<br>
-  <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
-  {% assign current_hour = "now" | date: "%H" | plus: 0 %}
-  {% assign hours_until_delivery = 12 | minus: current_hour %}
-  {% if current_hour < 12 %}
-    Order within {{ hours_until_delivery }} hours and <em>get it today!</em>
-  {% else %}
-    Order within {{ hours_until_delivery | plus: 24 }} hours and get it <em>tomorrow!</em>
-  {% endif %}
-</p>
-
+            <div class="Estimated_Delivery">
+              <p>
+                <strong><i class="fa-solid fa-truck"></i>    Standard Delivery: </strong> {{ "now" | date: "%s" | plus: 86400 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }}<br>
+                <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
+                {% assign current_hour = "now" | date: "%H" | plus: 0 %}
+                {% assign hours_until_delivery = 12 | minus: current_hour %}
+                {% if current_hour < 12 %}
+                  Order within {{ hours_until_delivery }} hours and <em>get it today!</em>
+                {% else %}
+                  Order within {{ hours_until_delivery | plus: 24 }} hours and get it <em>tomorrow!</em>
+                {% endif %}
+              </p>
           </div>
+
           {%- if section.settings.description_below_add_to_cart -%}
             <div class="ProductMeta__Description">
               <div class="Rte">
@@ -322,6 +322,8 @@
                   </div>
                 </div>
               {%- endif -%}
+
+              <p>Hello</p>
             </div>
           {%- endif -%}
 
