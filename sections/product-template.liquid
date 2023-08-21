@@ -282,6 +282,8 @@
             {%- render 'product-form', product: product -%}
           {%- endif -%}
             <div class="Estimated_Delivery">
+
+              {%- if product.tags.includes("d20") -%}
               <p>
                 <strong><i class="fa-solid fa-truck"></i>    Standard Delivery: </strong> {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 259200  | date: "%a, %-d %B" }}<br>
                 <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
@@ -295,6 +297,9 @@
                   Order within {{ hours_until_delivery | plus: 24 }} hrs, {{ minutes_until_delivery | plus: 60 }} mins and get it <em>tomorrow!</em>
                 {% endif %}
               </p>
+            {% endif %}
+
+         
           </div>
 
           {%- if section.settings.description_below_add_to_cart -%}
