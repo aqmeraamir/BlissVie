@@ -283,7 +283,7 @@
           {%- endif -%}
             <div class="Estimated_Delivery">
 
-              {%- if product.tags.includes("d20") -%}
+              {%- if product.tags.includes("d2000") -%}
               <p>
                 <strong><i class="fa-solid fa-truck"></i>    Standard Delivery: </strong> {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 259200  | date: "%a, %-d %B" }}<br>
                 <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
