@@ -808,7 +808,7 @@
       "4204f6a7-e2dd-4b51-ae5e-3ae0364a9d33": {
         "type": "image-with-text-overlay",
         "settings": {
-          "section_size": "small",
+          "section_size": "normal",
           "image": "shopify:\/\/shop_images\/Hca75b2ea1b6442509a7fb088269bae6eO.jpg",
           "text_color": "#ffffff",
           "overlay_color": "#000000",
