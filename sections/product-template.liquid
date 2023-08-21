@@ -283,21 +283,23 @@
           {%- endif -%}
             <div class="Estimated_Delivery">
 
-              {%- if product.tags.includes("d2000") -%}
-              <p>
-                <strong><i class="fa-solid fa-truck"></i>    Standard Delivery: </strong> {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 259200  | date: "%a, %-d %B" }}<br>
-                <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
-                {% assign current_hour = "now" | date: "%H" | plus: 0 %}
-                {% assign current_minute = "now" | date: "%M" | plus: 0 %}
-                {% assign hours_until_delivery = 12 | minus: current_hour %}
-                {% assign minutes_until_delivery = 12 | minus: current_minute %}
-                {% if current_hour < 12 %}
-                  Order within {{ hours_until_delivery }} hours and <em>get it today!</em>
-                {% else %}
-                  Order within {{ hours_until_delivery | plus: 24 }} hrs, {{ minutes_until_delivery | plus: 60 }} mins and get it <em>tomorrow!</em>
+              {%- for tag in product.tags -%}
+                {%- if tag contains 'd20' -%}
+                <p>
+                  <strong><i class="fa-solid fa-truck"></i>    Standard Delivery: </strong> {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 259200  | date: "%a, %-d %B" }}<br>
+                  <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
+                  {% assign current_hour = "now" | date: "%H" | plus: 0 %}
+                  {% assign current_minute = "now" | date: "%M" | plus: 0 %}
+                  {% assign hours_until_delivery = 12 | minus: current_hour %}
+                  {% assign minutes_until_delivery = 12 | minus: current_minute %}
+                  {% if current_hour < 12 %}
+                    Order within {{ hours_until_delivery }} hours and <em>get it today!</em>
+                  {% else %}
+                    Order within {{ hours_until_delivery | plus: 24 }} hrs, {{ minutes_until_delivery | plus: 60 }} mins and get it <em>tomorrow!</em>
+                  {% endif %}
+                </p>
                 {% endif %}
-              </p>
-            {% endif %}
+            {% endfor %}
 
          
           </div>
