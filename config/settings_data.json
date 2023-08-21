@@ -804,16 +804,30 @@
           "link_text": "VIEW COLLECTION",
           "link_url": "shopify:\/\/collections\/fountains"
         }
+      },
+      "4204f6a7-e2dd-4b51-ae5e-3ae0364a9d33": {
+        "type": "image-with-text-overlay",
+        "settings": {
+          "section_size": "small",
+          "image": "shopify:\/\/shop_images\/Hca75b2ea1b6442509a7fb088269bae6eO.jpg",
+          "text_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_opacity": 30,
+          "subheading": "",
+          "title": "",
+          "content": ""
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "featured-collections",
       "736a51f2-b834-4f50-ac94-8275bf075ed3",
+      "8c81192e-191e-4f5e-b689-9fede5d5974d",
+      "4204f6a7-e2dd-4b51-ae5e-3ae0364a9d33",
       "39bf1be5-5952-4db2-b43f-48cc615d83b9",
       "ef6cfcc2-9b1d-4c5a-962b-efc20e5b574f",
-      "8de3c2a3-2e30-49c7-aac7-5edf0510ec66",
-      "8c81192e-191e-4f5e-b689-9fede5d5974d"
+      "8de3c2a3-2e30-49c7-aac7-5edf0510ec66"
     ]
   },
   "presets": {
