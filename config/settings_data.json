@@ -95,7 +95,7 @@
             "type": "text",
             "settings": {
               "title": "About Us",
-              "content": "<p>Bliss Vie is the ultimate destination for home decor enthusiasts, providing a curated selection of exquisite and unique products that elevate living spaces. Providing customers a personalized, stylish, and inviting home that reflects their individuality and sense of design.<\/p>",
+              "content": "<p>Welcome to Bliss Vie, your destination for premium home decor that effortlessly combines quality and affordability. We specialize in crafting modern Nordic-inspired items designed to transform your living spaces into havens of style and comfort.<br\/>At Bliss Vie, we believe that creating a beautiful home should be accessible to all, and that's why we offer a curated selection of high-quality products at reasonable prices. Whether you're seeking chic and minimalist designs or timeless classics, our collection has something to suit every taste.<br\/>Discover the perfect balance of functionality and aesthetics with Bliss Vie. Explore our range of home decor items and experience the joy of enhancing your living spaces with modern Nordic charm. Make your house a home with Bliss Vie.<\/p>",
               "show_social_media": true
             }
           },
@@ -109,7 +109,7 @@
             "type": "text",
             "settings": {
               "title": "Contact Us",
-              "content": "<p> &lt;i class=&quot;fa-regular fa-envelope&quot;&gt;&lt;\/i&gt; info@blissvie.com<\/p><p><a href=\"https:\/\/goo.gl\/maps\/xqieTtxgnqrueZVU6\" target=\"_blank\" title=\"https:\/\/goo.gl\/maps\/xqieTtxgnqrueZVU6\"><span style=\"text-decoration:underline\">📍 Office: Sharjah Publishing City, Business Center - Free Zone - Al Zahia - Sharjah <\/span><\/a><\/p>",
+              "content": "<p> &lt;i class=\"fa-regular fa-envelope\"&gt;&lt;\/i&gt; info@blissvie.com<\/p><p><a href=\"https:\/\/goo.gl\/maps\/xqieTtxgnqrueZVU6\" target=\"_blank\" title=\"https:\/\/goo.gl\/maps\/xqieTtxgnqrueZVU6\"><span style=\"text-decoration:underline\">📍 Office: Sharjah Publishing City, Business Center - Free Zone - Al Zahia - Sharjah <\/span><\/a><\/p>",
               "show_social_media": false
             }
           }
