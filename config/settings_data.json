@@ -122,7 +122,7 @@
         "settings": {
           "show_payment_methods": true,
           "show_currency_selector": true,
-          "show_locale_selector": true
+          "show_locale_selector": false
         }
       },
       "slideshow": {
@@ -820,7 +820,32 @@
       "4204f6a7-e2dd-4b51-ae5e-3ae0364a9d33",
       "39bf1be5-5952-4db2-b43f-48cc615d83b9",
       "ef6cfcc2-9b1d-4c5a-962b-efc20e5b574f"
-    ]
+    ],
+    "blocks": {
+      "11354984448963461329": {
+        "type": "shopify:\/\/apps\/g-translate\/blocks\/dropdown_with_flags\/408a74ac-f92d-43cf-a1b1-a044341e66bd",
+        "disabled": false,
+        "settings": {
+          "horizontal_position": "left",
+          "vertical_position": "bottom",
+          "open_direction": "bottom",
+          "native_language_names": true,
+          "flag_size": "32",
+          "flag_style": "2d",
+          "switcher_text_color": "#666666",
+          "switcher_arrow_color": "#666666",
+          "switcher_border_color": "#cccccc",
+          "switcher_background_color": "#ffffff",
+          "switcher_background_shadow_color": "#efefef",
+          "switcher_background_hover_color": "#ffffff",
+          "dropdown_text_color": "#000000",
+          "dropdown_hover_color": "#ffffff",
+          "dropdown_background_color": "#eeeeee",
+          "wrapper_selector": "",
+          "custom_css": ""
+        }
+      }
+    }
   },
   "presets": {
     "Allure": {
