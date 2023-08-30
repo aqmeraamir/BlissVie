@@ -855,7 +855,7 @@
           "flag_size": "24",
           "flag_style": "2d",
           "wrapper_selector": "",
-          "custom_css": ".gt_switcher_wrapper {\ntop:8px!important;\n}\n\n.glink {\ncolor:white!important;\n}"
+          "custom_css": ".gt_switcher_wrapper {\ntop:8px!important;\nrigh:30px!important;\n}\n\n.glink {\ncolor:white!important;\n}"
         }
       }
     }
