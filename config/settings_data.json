@@ -847,13 +847,24 @@
       },
       "17815724188505846297": {
         "type": "shopify:\/\/apps\/g-translate\/blocks\/flags_name\/408a74ac-f92d-43cf-a1b1-a044341e66bd",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "horizontal_position": "right",
           "vertical_position": "top",
           "native_language_names": true,
           "flag_size": "24",
           "flag_style": "2d",
+          "wrapper_selector": "",
+          "custom_css": ""
+        }
+      },
+      "6623373142120236592": {
+        "type": "shopify:\/\/apps\/g-translate\/blocks\/lang_names\/408a74ac-f92d-43cf-a1b1-a044341e66bd",
+        "disabled": false,
+        "settings": {
+          "horizontal_position": "right",
+          "vertical_position": "top",
+          "native_language_names": true,
           "wrapper_selector": "",
           "custom_css": ".gt_switcher_wrapper {\ntop:8px!important;\nright:30px!important;\nposition:absolute!important;\n}\n\n.glink {\ncolor:white!important;\n}\n\n@media only screen and (max-width: 600px) {\n.gt_switcher_wrapper {\ntop:120px!important;\nright:2px!important;\n}\n}"
         }
