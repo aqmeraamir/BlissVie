@@ -63,7 +63,7 @@
         "type": "announcement",
         "settings": {
           "enable_bar": true,
-          "home_page_only": true,
+          "home_page_only": false,
           "background": "#362721",
           "text_color": "#ffffff",
           "content": "free delivery on orders over AED 100 within the UAE | 15% OFF first order",
