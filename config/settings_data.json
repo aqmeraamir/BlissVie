@@ -865,7 +865,7 @@
           "horizontal_position": "right",
           "vertical_position": "top",
           "native_language_names": true,
-          "wrapper_selector": ".SidebarMenu__Nav--primary",
+          "wrapper_selector": ".SidebarMenu__Nav--primary, #shopify-section-announcement",
           "custom_css": ".gt_switcher_wrapper {\ntop:8px!important;\nright:30px!important;\nposition:absolute!important;\n}\n\n.glink {\ncolor:white!important;\npadding:4px!important;\n}\n\n\n.gt_container--86j4gi .glink {\nposition:relative!important;\ntop:15px!important;\n}"
         }
       }
