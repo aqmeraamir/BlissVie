@@ -855,7 +855,7 @@
           "flag_size": "24",
           "flag_style": "2d",
           "wrapper_selector": "",
-          "custom_css": ".gt_switcher_wrapper {\ntop:8px!important;\nright:30px!important;\nposition:absolute!important;\n}\n\n.glink {\ncolor:white!important;\n}\n\n@media only screen and (max-width: 600px) {\n.gt_switcher_wrapper {\ntop:20px!important;\n}\n}"
+          "custom_css": ".gt_switcher_wrapper {\ntop:8px!important;\nright:30px!important;\nposition:absolute!important;\n}\n\n.glink {\ncolor:white!important;\n}\n\n@media only screen and (max-width: 600px) {\n.gt_switcher_wrapper {\ntop:120px!important;\nright:2px!important;\n}\n}"
         }
       }
     }
