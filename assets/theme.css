@@ -11016,3 +11016,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   text-align:right!important;
   direction:rtl!important;
 }
+
+.translated-rtl .Estimated_Delivery {
+  text-align:right!important;
+  direction:rtl!important;
+}
+
