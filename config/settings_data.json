@@ -865,7 +865,7 @@
           "horizontal_position": "right",
           "vertical_position": "top",
           "native_language_names": true,
-          "wrapper_selector": "",
+          "wrapper_selector": ".SidebarMenu__Nav--primary",
           "custom_css": ".gt_switcher_wrapper {\ntop:8px!important;\nright:30px!important;\nposition:absolute!important;\n}\n\n.glink {\ncolor:white!important;\n}\n\n@media only screen and (max-width: 600px) {\n.gt_switcher_wrapper {\ntop:120px!important;\nright:2px!important;\n}\n}"
         }
       }
