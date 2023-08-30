@@ -11012,6 +11012,6 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   margin-top: 12px;
 }
 
-.translated-rtl {
+.translated-rtl .ProductMeta__Description {
   direction: rtl!important;
 }
