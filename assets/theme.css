@@ -11011,3 +11011,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .RefundPolicy {
   margin-top: 12px;
 }
+
+.translated-rtl {
+  direction: rtl!important;
+}
