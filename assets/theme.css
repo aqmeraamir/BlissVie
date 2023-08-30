@@ -11022,3 +11022,10 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   direction:rtl!important;
 }
 
+
+@media only screen and (max-width: 600px) {
+.gtranslate_wrapper {
+display:none!important;
+}
+}
+
