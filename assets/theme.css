@@ -11029,3 +11029,10 @@ display:none!important;
 }
 }
 
+.translated-rtl {
+  direction:rtl!important;
+}
+
+.translated-rtl * {
+  direction:rtl!important;
+}
