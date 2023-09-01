@@ -314,22 +314,28 @@
                     Order within {{ hours_until_next_day }} hours and {{ minutes_until_next_day | replace: "-", "" }} minutes to get it today!
                   {% endif %}
                 {% else %}
-                  {{ delivery_time_today | minus: current_time | date: "%a, %-d %B" }} - {{ delivery_time_today | minus: current_time | date: "%a, %-d %B" }}
+                  {{ delivery_time_tomorrow | minus: current_time | date: "%a, %-d %B" }} - {{ delivery_time_tomorrow | minus: current_time | date: "%a, %-d %B" }}
                   <br>
                   <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
                   {% assign hours_until_delivery = 11 | minus: current_time | date: "%H" %}
                   {% assign minutes_until_delivery = 30 | minus: current_time | date: "%M" %}
                   
                   {% if hours_until_delivery > 0 or minutes_until_delivery > 0 %}
-                    Order within <em>{{ hours_until_delivery }} hours and {{ minutes_until_delivery | replace: "-", "" }} minutes</em> to get it today!
+                    Order within <em>{{ hours_until_delivery }} hours and {{ minutes_until_delivery | replace: "-", "" }} minutes</em> to get it tomorrow!
                   {% else %}
                     {% assign hours_until_next_day = 24 | minus: current_time | date: "%H" | plus: 11 %}
                     {% assign minutes_until_next_day = 30 | minus: current_time | date: "%M" %}
+                    
+                    {% if hours_until_next_day < 0 %}
+                      {% assign hours_until_next_day = hours_until_next_day | plus: 24 %}
+                    {% endif %}
+                    
                     Order within {{ hours_until_next_day }} hours and {{ minutes_until_next_day | replace: "-", "" }} minutes to get it tomorrow!
                   {% endif %}
                 {% endif %}
               </p>
             {% endunless %}
+            
             
           </div>
           
