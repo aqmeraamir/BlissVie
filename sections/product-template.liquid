@@ -298,7 +298,7 @@
                 <p>
                   <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 259200  | date: "%a, %-d %B" }}<br>
                   <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
-                  
+
                   {% assign current_hour = "now" | date: "%H" | plus: 0 %}
                   {% assign current_minute = "now" | date: "%M" | plus: 0 %}
                   {% assign target_hour = 11 %}
@@ -309,9 +309,9 @@
 
              
                   {% if current_hour < target_hour %}
-                    Order within {{ hours_until_delivery }} hours and {{ minutes_until_delivery }} mins and <em>get it today!</em>
+                    Order within {{ hours_until_delivery | plus: 24 }} hours and {{ minutes_until_delivery }} mins and <em>get it today!</em>
                   {% else %}
-                    Order within {{ hours_until_delivery}} hours, {{ minutes_until_delivery }} mins and get it <em>tomorrow!</em>
+                    Order within {{ hours_until_delivery | plus: 24 }} hours, {{ minutes_until_delivery }} mins and get it <em>tomorrow!</em>
                   {% endif %}
                 </p>
               {% endunless %}
