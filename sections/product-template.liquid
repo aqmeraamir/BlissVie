@@ -281,7 +281,7 @@
           {%- if product.template_suffix != 'coming-soon' -%}
             {%- render 'product-form', product: product -%}
           {%- endif -%}
-          
+
           <div class="Estimated_Delivery">
 
               {% assign found_d20_tag = false %}
@@ -305,13 +305,13 @@
                   {% if current_hour < 12 %}
                     Order within {{ hours_until_delivery }} hours and <em>get it today!</em>
                   {% else %}
-                    Order within {{ hours_until_delivery | plus: 24 }} hrs, {{ minutes_until_delivery | plus: 60 }} mins and get it <em>tomorrow!</em>
+                    Order within {{ hours_until_delivery }} hrs, {{ minutes_until_delivery }} mins and get it <em>tomorrow!</em>
                   {% endif %}
                 </p>
               {% endunless %}
               
 
-         
+    
           </div>
 
           {%- if section.settings.description_below_add_to_cart -%}
