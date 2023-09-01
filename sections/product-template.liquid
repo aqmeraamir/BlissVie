@@ -307,7 +307,7 @@
                   {% if current_hour < target_hour %}
                     Order within {{ hours_until_delivery }} hours and {{ minutes_until_delivery }} mins and <em>get it today!</em>
                   {% else %}
-                    Order within {{ hours_until_delivery }} hrs, {{ minutes_until_delivery }} mins and get it <em>tomorrow!</em>
+                    Order within {{ hours_until_delivery | minus: 5 }} hours, {{ minutes_until_delivery }} mins and get it <em>tomorrow!</em>
                   {% endif %}
                 </p>
               {% endunless %}
