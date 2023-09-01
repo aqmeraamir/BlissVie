@@ -330,7 +330,7 @@
                       {% assign hours_until_next_day = hours_until_next_day | plus: 24 %}
                     {% endif %}
                     
-                    Order within {{ hours_until_next_day }} hours and {{ minutes_until_next_day | replace: "-", "" }} minutes to get it tomorrow!
+                    Order within {{ hours_until_next_day | minus: 24 }} hours and {{ minutes_until_next_day | replace: "-", "" }} minutes to get it tomorrow!
                   {% endif %}
                 {% endif %}
               </p>
