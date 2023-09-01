@@ -300,15 +300,18 @@
                   <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
                   {% assign current_hour = "now" | date: "%H" | plus: 0 %}
                   {% assign current_minute = "now" | date: "%M" | plus: 0 %}
-                  {% assign hours_until_delivery = 12 | minus: current_hour %}
-                  {% assign minutes_until_delivery = 12 | minus: current_minute %}
-                  {% if current_hour < 12 %}
-                    Order within {{ hours_until_delivery }} hours and <em>get it today!</em>
+                  {% assign target_hour = 11 %}
+                  {% assign target_minute = 30 %}
+                  {% assign hours_until_delivery = target_hour | minus: current_hour %}
+                  {% assign minutes_until_delivery = target_minute | minus: current_minute %}
+                  {% if current_hour < target_hour or (current_hour == target_hour and current_minute < target_minute) %}
+                    Order within {{ hours_until_delivery }} hours and {{ minutes_until_delivery }} mins and <em>get it today!</em>
                   {% else %}
                     Order within {{ hours_until_delivery }} hrs, {{ minutes_until_delivery }} mins and get it <em>tomorrow!</em>
                   {% endif %}
                 </p>
               {% endunless %}
+              
               
 
     
