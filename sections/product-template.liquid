@@ -281,44 +281,38 @@
           {%- if product.template_suffix != 'coming-soon' -%}
             {%- render 'product-form', product: product -%}
           {%- endif -%}
+          
           <div class="Estimated_Delivery">
-            {% assign found_d20_tag = false %}
-          
-            {% for tag in product.tags %}
-              {% if tag contains 'd20' %}
-                {% assign found_d20_tag = true %}
-                <strong><i class="fa-solid fa-truck"></i> Standard Delivery: 20-30 days</strong>
-                {% break %}
-              {% endif %}
-            {% endfor %}
-          
-            {% unless found_d20_tag %}
-              <p>
-                <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> 
-                {% capture current_time %}{{ "now" | date: "%s" }}{% endcapture %}
-                {% capture delivery_time_today %}{{ current_time | plus: 3600 | date: "%s" | plus: 30600 }}{% endcapture %}
-                {% capture delivery_time_tomorrow %}{{ current_time | plus: 86400 | date: "%s" | plus: 30600 }}{% endcapture %}
-                
-                
-                {% if hours_until_delivery > 0 or minutes_until_delivery > 0 %}
-                    Order within <em>{{ hours_until_delivery }} hours and {{  minutes_until_delivery | replace: "-", "" }} minutes</em> to get it today!
-                  {% else %}
-                    {% assign hours_until_next_day = 24 | minus: current_time | date: "%H" | plus: 11 %}
-                    {% assign minutes_until_next_day = 30 | minus: current_time | date: "%M" %}
-                    
-                    {% if hours_until_next_day < 0 %}
-                      {% assign hours_until_next_day = hours_until_next_day | plus: 24 %}
-                    {% endif %}
-                    
-                    Order within {{ hours_until_next_day | minus: 24 }} hours and {{ minutes_until_next_day | replace: "-", "" }} minutes to get it tomorrow!
+
+              {% assign found_d20_tag = false %}
+
+              {% for tag in product.tags %}
+                {% if tag contains 'd20' %}
+                  {% assign found_d20_tag = true %}
+                  <strong><i class="fa-solid fa-truck"></i> Standard Delivery: 20-30 days</strong>
+                  {% break %} 
                 {% endif %}
-      
-              </p>
-            {% endunless %}
-            
-            
+              {% endfor %}
+              
+              {% unless found_d20_tag %}
+                <p>
+                  <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 259200  | date: "%a, %-d %B" }}<br>
+                  <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
+                  {% assign current_hour = "now" | date: "%H" | plus: 0 %}
+                  {% assign current_minute = "now" | date: "%M" | plus: 0 %}
+                  {% assign hours_until_delivery = 12 | minus: current_hour %}
+                  {% assign minutes_until_delivery = 12 | minus: current_minute %}
+                  {% if current_hour < 12 %}
+                    Order within {{ hours_until_delivery }} hours and <em>get it today!</em>
+                  {% else %}
+                    Order within {{ hours_until_delivery | plus: 24 }} hrs, {{ minutes_until_delivery | plus: 60 }} mins and get it <em>tomorrow!</em>
+                  {% endif %}
+                </p>
+              {% endunless %}
+              
+
+         
           </div>
-          
 
           {%- if section.settings.description_below_add_to_cart -%}
             <div class="ProductMeta__Description">
