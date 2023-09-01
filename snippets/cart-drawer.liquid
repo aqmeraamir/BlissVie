@@ -69,11 +69,7 @@
           {%- endif -%}
         {%- endif -%}
 
-        <button type="submit" name="view_cart" class="Cart__Checkout Button Button--primary Button--full">
-          <span>{{- 'cart.general.checkout' | t -}}</span>
-          <span class="Button__SeparatorDot"></span>
-          <span>{{ cart.total_price | money_without_trailing_zeros }}</span>
-        </button>
+
 
         <button type="submit" name="checkout" class="Cart__Checkout Button Button--primary Button--full">
           <span>{{- 'cart.general.checkout' | t -}}</span>
