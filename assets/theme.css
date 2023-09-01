@@ -6262,6 +6262,13 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   margin-top: 18px;
 }
 
+.Cart__View {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+}
+
 .Cart__OffscreenNoteContainer {
   position: absolute;
   width: 100%;
@@ -6330,7 +6337,16 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   margin-top: 16px;
 }
 
+.Cart--expanded .Cart__Recap,
+.Cart--expanded .Cart__Recap .Cart__View {
+  margin-top: 16px;
+}
+
 .Cart--expanded .Cart__Checkout {
+  margin-left: auto;
+}
+
+.Cart--expanded .Cart__View {
   margin-left: auto;
 }
 
@@ -6398,6 +6414,10 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .Cart--expanded .Cart__Checkout {
+    width: auto;
+  }
+
+  .Cart--expanded .Cart__View {
     width: auto;
   }
 }
