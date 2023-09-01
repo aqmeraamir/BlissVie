@@ -153,17 +153,8 @@
                 </tr>
               {%- endif -%}
             {%- endfor -%}
-            
-            {% assign hideCashOnDelivery = true %}
-            
-            {% unless hideCashOnDelivery %}
-              <tr>
-                <td class="hidden-phone"></td>
-                <td class="Heading u-h6">{{ 'customer.order.cash_on_delivery' | t }}</td>
-                <td class="Text--alignRight u-h6">{{ 'your_cash_on_delivery_price' | money_without_trailing_zeros }}</td>
-              </tr>
-            {% endunless %}
 
+          
           </tbody>
 
           <tfoot>
