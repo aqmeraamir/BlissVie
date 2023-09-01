@@ -301,11 +301,11 @@
                 {% assign hours_until_delivery = 11 | minus: current_hour %}
                 {% assign minutes_until_delivery = 30 | minus: current_minute %}
                 {% if hours_until_delivery > 0 or minutes_until_delivery > 0 %}
-                  Order within {{ hours_until_delivery }} hours and {{ minutes_until_delivery | replace: "-", "" }} minutes to get it today by 11:30 am!
+                  Order within <em>{{ hours_until_delivery }} hours and {{ minutes_until_delivery | replace: "-", "" }} minutes</em> to get it today by 12pm!
                 {% else %}
                   {% assign hours_until_next_day = 24 | minus: current_hour | plus: 11 %}
                   {% assign minutes_until_next_day = 30 | minus: current_minute %}
-                  Order within {{ hours_until_next_day }} hours and {{ minutes_until_next_day | replace: "-", "" }} minutes to get it tomorrow by 11:30 am!
+                  Order within {{ hours_until_next_day }} hours and {{ minutes_until_next_day | replace: "-", "" }} minutes to get it tomorrow by 12pm!
                 {% endif %}
               </p>
             {% endunless %}
