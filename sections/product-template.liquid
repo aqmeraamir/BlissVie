@@ -299,28 +299,8 @@
                 {% capture delivery_time_today %}{{ current_time | plus: 3600 | date: "%s" | plus: 30600 }}{% endcapture %}
                 {% capture delivery_time_tomorrow %}{{ current_time | plus: 86400 | date: "%s" | plus: 30600 }}{% endcapture %}
                 
-                {% if current_time | date: "%H" | plus: 0 < 12 %}
-                  {{ delivery_time_tomorrow | minus: current_time | date: "%a, %-d %B" }} - {{ delivery_time_tomorrow | minus: current_time | date: "%a, %-d %B" }}
-                  <br>
-                  <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
-                  {% assign hours_until_delivery = 11 | minus: current_time | date: "%H" %}
-                  {% assign minutes_until_delivery = 30 | minus: current_time | date: "%M" %}
-                  
-                  {% if hours_until_delivery > 0 or minutes_until_delivery > 0 %}
-                    Order within <em>{{ hours_until_delivery }} hours and {{ minutes_until_delivery | replace: "-", "" }} minutes</em> to get it tomorrow!
-                  {% else %}
-                    {% assign hours_until_next_day = 24 | minus: current_time | date: "%H" | plus: 11 %}
-                    {% assign minutes_until_next_day = 30 | minus: current_time | date: "%M" %}
-                    Order within {{ hours_until_next_day }} hours and {{ minutes_until_next_day | replace: "-", "" }} minutes to get it today!
-                  {% endif %}
-                {% else %}
-                  {{ delivery_time_tomorrow | minus: current_time | date: "%a, %-d %B" }} - {{ delivery_time_tomorrow | minus: current_time | date: "%a, %-d %B" }}
-                  <br>
-                  <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
-                  {% assign hours_until_delivery = 11 | minus: current_time | date: "%H" %}
-                  {% assign minutes_until_delivery = 30 | minus: current_time | date: "%M" %}
-                  
-                  {% if hours_until_delivery > 0 or minutes_until_delivery > 0 %}
+                
+                {% if hours_until_delivery > 0 or minutes_until_delivery > 0 %}
                     Order within <em>{{ hours_until_delivery }} hours and {{  minutes_until_delivery | replace: "-", "" }} minutes</em> to get it today!
                   {% else %}
                     {% assign hours_until_next_day = 24 | minus: current_time | date: "%H" | plus: 11 %}
@@ -331,8 +311,8 @@
                     {% endif %}
                     
                     Order within {{ hours_until_next_day | minus: 24 }} hours and {{ minutes_until_next_day | replace: "-", "" }} minutes to get it tomorrow!
-                  {% endif %}
                 {% endif %}
+      
               </p>
             {% endunless %}
             
