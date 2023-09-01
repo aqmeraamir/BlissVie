@@ -305,7 +305,7 @@
                   {% assign hours_until_delivery = target_hour | minus: current_hour %}
                   {% assign minutes_until_delivery = target_minute | minus: current_minute %}
 
-                  {% assign hours_until_delivery = hours_until_delivery | minus: 24 %}
+                  {% assign hours_until_delivery = hours_until_delivery | plus: 24 %}
              
                   {% if current_hour < target_hour %}
                     Order within {{ hours_until_delivery }} hours and {{ minutes_until_delivery }} mins and <em>get it today!</em>
