@@ -281,6 +281,8 @@
           {%- if product.template_suffix != 'coming-soon' -%}
             {%- render 'product-form', product: product -%}
           {%- endif -%}
+
+          
           <div class="Estimated_Delivery">
             {% assign found_d20_tag = false %}
           
@@ -295,19 +297,8 @@
             {% unless found_d20_tag %}
               <p>
                 <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ "now" | date: "%a, %-d %B" | append: " - " | append: "now" | date: "%a, %-d %B" | plus: 20 | date: "%a, %-d %B" }}<br>
-                <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
-                {% assign current_hour = "now" | date: "%H" | plus: 0 %}
-                {% assign current_minute = "now" | date: "%M" | plus: 0 %}
-                {% assign hours_until_delivery = 11 | minus: current_hour %}
-                {% assign minutes_until_delivery = 30 | minus: current_minute %}
-                {% if hours_until_delivery > 0 %}
-                  Order within {{ hours_until_delivery }} hours and {{ minutes_until_delivery }} minutes to get it today at 11:30 am!
-                {% else %}
-                  Order now to get it today at 11:30 am!
-                {% endif %}
-              </p>
-            {% endunless %}
-          </div>
+                <strong><i class="fa-solid fa-truck-fast fa
+          
           
 
           {%- if section.settings.description_below_add_to_cart -%}
