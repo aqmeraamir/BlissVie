@@ -312,10 +312,14 @@
                     {% assign minutes_until_delivery = minutes_until_delivery | plus: 60 %}
                   {% endif %}
 
+                  {% if hours_until_delivery < 0 %}
+                    {% assign hours_until_delivery = hours_until_delivery | plus: 24 %}
+                  {% endif %}
+
                   {% if current_hour > 0 and current_hour < 11  %}
-                    Order within {{ hours_until_delivery | plus: 24 }} hours, {{ minutes_until_delivery }} mins and <em>get it today!</em>
+                    Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and <em>get it today!</em>
                   {% else %}
-                    Order within {{ hours_until_delivery | plus: 24 }} hours, {{ minutes_until_delivery }} mins and get it <em>tomorrow!</em>
+                    Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and get it <em>tomorrow!</em>
                   {% endif %}
                 </p>
               {% endunless %}
