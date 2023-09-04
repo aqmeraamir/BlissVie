@@ -45,9 +45,11 @@
 
         <img class="ProductItem__Image Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ product.featured_media.alt | escape }}" data-media-id="{{ product.featured_media.id }}">
         <span class="Image__Loader"></span>
+         {%- comment -%}
       <div class="ProductItem__Hover">
         <img src="{{ product.images[1].src | img_url: 'medium' }}" alt="{{ image.alt | escape }}" />
       </div>
+    {% endcomment %}
         <noscript>
           <img class="ProductItem__Image ProductItem__Image--alternate" src="{{ product.media[1] | img_url: '600x' }}" alt="{{ product.media[1].alt | escape }}">
           <img class="ProductItem__Image" src="{{ product.featured_media| img_url: '600x' }}" alt="{{ product.featured_media.alt | escape }}">
