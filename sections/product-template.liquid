@@ -284,17 +284,17 @@
 
           <div class="Estimated_Delivery">
 
-              {% assign found_d20_tag = false %}
+              {% assign found_dropsh_tag = false %}
 
               {% for tag in product.tags %}
-                {% if tag contains 'd20' %}
-                  {% assign found_d20_tag = true %}
-                  <strong><i class="fa-solid fa-truck"></i> Standard Delivery: 20-30 days</strong>
+                {% if tag contains 'dropsh' %}
+                  {% assign found_dropsh_tag = true %}
+                  <strong><i class="fa-solid fa-truck"></i> Standard Delivery: 7-10 days</strong>
                   {% break %} 
                 {% endif %}
               {% endfor %}
               
-              {% unless found_d20_tag %}
+              {% unless found_dropsh_tag %}
                 <p>
                   <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 259200  | date: "%a, %-d %B" }}<br>
                   <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
