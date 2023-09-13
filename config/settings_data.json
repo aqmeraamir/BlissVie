@@ -30,7 +30,7 @@
     "show_button_transition": true,
     "show_image_zooming": true,
     "show_element_staggering": false,
-    "search_mode": "product,article",
+    "search_mode": "product",
     "product_show_price_on_hover": false,
     "product_show_secondary_image": true,
     "product_info_alignment": "center",
@@ -132,12 +132,12 @@
           "0a83e65a-4ff8-4ae4-a159-2600b40cd8ef": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Design.png",
+              "image": "shopify:\/\/shop_images\/Design_2.png",
               "mobile_image": "shopify:\/\/shop_images\/this.jpg",
               "apply_overlay": true,
               "content_position": "middleCenter",
               "subheading": "",
-              "title": "Elevate Home Living ♡",
+              "title": "",
               "button_1_text": "Shop by collection",
               "button_1_link": "shopify:\/\/collections",
               "button_2_text": "View all products",
