@@ -777,6 +777,7 @@
           "8c81192e-191e-4f5e-b689-9fede5d5974d-collection-1",
           "ce297c5c-e43e-4ab8-a4ae-487ea371f49c"
         ],
+        "disabled": true,
         "settings": {
           "title": "Wall Art",
           "layout_mode": "grid",
@@ -811,12 +812,39 @@
           "title": "",
           "content": ""
         }
+      },
+      "bb7dde18-0cba-4043-83e6-114e441985a6": {
+        "type": "featured-collections",
+        "blocks": {
+          "bb7dde18-0cba-4043-83e6-114e441985a6-collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "accessories",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
+          }
+        },
+        "block_order": [
+          "bb7dde18-0cba-4043-83e6-114e441985a6-collection-1"
+        ],
+        "settings": {
+          "title": "",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "featured-collections",
       "736a51f2-b834-4f50-ac94-8275bf075ed3",
+      "bb7dde18-0cba-4043-83e6-114e441985a6",
       "8c81192e-191e-4f5e-b689-9fede5d5974d",
       "4204f6a7-e2dd-4b51-ae5e-3ae0364a9d33",
       "39bf1be5-5952-4db2-b43f-48cc615d83b9",
