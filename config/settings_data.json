@@ -129,20 +129,6 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
-          "5b3c1dbf-9bf3-44d3-adea-975484c0d630": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/8418bd30-05e5-4f9b-ad0d-791691a62c66.jpg",
-              "apply_overlay": false,
-              "content_position": "bottomLeft",
-              "subheading": "Slide title",
-              "title": "Tell your story",
-              "button_1_text": "",
-              "button_1_link": "",
-              "button_2_text": "",
-              "button_2_link": ""
-            }
-          },
           "0a83e65a-4ff8-4ae4-a159-2600b40cd8ef": {
             "type": "image",
             "settings": {
@@ -188,10 +174,11 @@
               "button_2_link": ""
             }
           },
-          "419c527d-e21c-4b90-b365-3d428f0ce549": {
+          "5b3c1dbf-9bf3-44d3-adea-975484c0d630": {
             "type": "image",
             "settings": {
-              "apply_overlay": true,
+              "image": "shopify:\/\/shop_images\/8418bd30-05e5-4f9b-ad0d-791691a62c66.jpg",
+              "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "Slide title",
               "title": "Tell your story",
@@ -203,11 +190,10 @@
           }
         },
         "block_order": [
-          "5b3c1dbf-9bf3-44d3-adea-975484c0d630",
           "0a83e65a-4ff8-4ae4-a159-2600b40cd8ef",
           "slide-0",
           "3203bfc1-dc9c-49d4-be92-71e0d94eded3",
-          "419c527d-e21c-4b90-b365-3d428f0ce549"
+          "5b3c1dbf-9bf3-44d3-adea-975484c0d630"
         ],
         "settings": {
           "show_fullscreen": true,
