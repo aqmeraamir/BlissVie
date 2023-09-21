@@ -164,7 +164,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/10_and_15.png",
               "mobile_image": "shopify:\/\/shop_images\/15_OFF_on_your_first_order_poster_for_website_4.png",
-              "apply_overlay": true,
+              "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
               "title": "",
