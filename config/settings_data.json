@@ -149,7 +149,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Design_aa2d64da-73b5-424b-a8c5-308d6e92db4f.png",
               "mobile_image": "shopify:\/\/shop_images\/Screenshot_2023-07-22_at_7.34.59_PM.png",
-              "apply_overlay": true,
+              "apply_overlay": false,
               "content_position": "bottomRight",
               "subheading": "",
               "title": "Marble Collection",
@@ -192,7 +192,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Design_995d2fe8-8766-4267-a692-f71c67851e13.png",
-              "apply_overlay": true,
+              "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "Slide title",
               "title": "Tell your story",
