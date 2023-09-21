@@ -149,7 +149,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Design_aa2d64da-73b5-424b-a8c5-308d6e92db4f.png",
               "mobile_image": "shopify:\/\/shop_images\/Screenshot_2023-07-22_at_7.34.59_PM.png",
-              "apply_overlay": false,
+              "apply_overlay": true,
               "content_position": "bottomRight",
               "subheading": "",
               "title": "Marble Collection",
