@@ -162,7 +162,7 @@
           "3203bfc1-dc9c-49d4-be92-71e0d94eded3": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/15_OFF_on_your_first_order_poster_for_website_6.png",
+              "image": "shopify:\/\/shop_images\/10_and_15.png",
               "mobile_image": "shopify:\/\/shop_images\/15_OFF_on_your_first_order_poster_for_website_4.png",
               "apply_overlay": true,
               "content_position": "bottomLeft",
@@ -187,28 +187,13 @@
               "button_2_text": "",
               "button_2_link": ""
             }
-          },
-          "3784477b-3eaf-4226-8c36-e46863bdee1b": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Design_995d2fe8-8766-4267-a692-f71c67851e13.png",
-              "apply_overlay": false,
-              "content_position": "bottomLeft",
-              "subheading": "Slide title",
-              "title": "Tell your story",
-              "button_1_text": "",
-              "button_1_link": "",
-              "button_2_text": "",
-              "button_2_link": ""
-            }
           }
         },
         "block_order": [
           "0a83e65a-4ff8-4ae4-a159-2600b40cd8ef",
           "slide-0",
           "3203bfc1-dc9c-49d4-be92-71e0d94eded3",
-          "5b3c1dbf-9bf3-44d3-adea-975484c0d630",
-          "3784477b-3eaf-4226-8c36-e46863bdee1b"
+          "5b3c1dbf-9bf3-44d3-adea-975484c0d630"
         ],
         "settings": {
           "show_fullscreen": true,
