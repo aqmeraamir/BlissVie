@@ -313,15 +313,24 @@
                   {%- Standard Delivery -%}
                   {%- endcomment -%}
                   {% assign standard_delivery_date = ""%}
-
                   {% assign current_hour = 0 %}
-                  {% if current_hour < 15 %}
-                    {% assign standard_delivery_date =  "now" | date: "%s" | plus: 86400 | date: "%a, %-d %B" %}
-                  {% else %}
-                    {% assign standard_delivery_date =  "now" | date: "%s" | plus: 172000 | date: "%a, %-d %B" %}
-                  {% endif %}
 
-                  <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ standard_delivery_date }}<br>
+                  {% if current_hour < 15 %}
+                    {% assign standard_delivery_date =  "now" | date: "%s" | plus: 86400 %}
+                  {% else %}
+                    {% assign standard_delivery_date =  "now" | date: "%s" | plus: 172000  %}
+                  {% endif %}
+                  
+                  {% comment %}
+                    If the standard delivery date is a Sunday, add 1 day to the delivery date
+                  {% endcomment %}
+
+                  {% assign standard_delivery_day = standard_delivery_date | date: "%a" %}
+                  {% if standard_delivery_day == "Sun" %}
+                    {% assign standard_delivery_date = standard_delivery_date | plus: 86400 %}
+                  {% endif %}
+                  
+                  <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ standard_delivery_date | date: "%a, %-d %B" }}<br>
                  
                 
                   {%- comment -%}
