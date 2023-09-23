@@ -312,7 +312,7 @@
                   {%- comment -%}
                   {%- Standard Delivery -%}
                   {%- endcomment -%}
-
+                  {% assing current_hour = 10 %}
                   {% if current_hour < 15 %}
                     <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ "now" | date: "%s" | plus: 86400 | date: "%a, %-d %B" }}<br>
                   {% else %}
