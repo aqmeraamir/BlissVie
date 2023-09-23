@@ -10971,7 +10971,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 
- 
+ /*
 .ProductItem {
   position: relative;
 }
@@ -11027,7 +11027,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   max-width: 100%;
   height: 100%;
 }
-
+*/
 
 
 /* Refund Policy */
