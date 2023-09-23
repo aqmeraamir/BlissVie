@@ -10971,6 +10971,61 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 
+/* Product Hover */
+.ProductItem {
+  position: relative;
+}
+
+.ProductItem__Wrapper {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.ProductItem__Image {
+  display: block;
+  width: 100%;
+  height: auto;
+    transition: opacity 0.2s linear; /* Added transition for opacity */
+  opacity: 1; /* Start with full opacity */
+}
+
+.ProductItem:hover .ProductItem__Image {
+  opacity: 0; /* On hover, fade out the image */
+  
+}
+
+.ProductItem__Hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+  pointer-events: none;
+
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductItem:hover .ProductItem__Hover {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 1; /* Ensure hover content appears above the image */
+}
+
+.ProductItem__Hover .ProductItem__ImageWrapper {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ProductItem__Hover img {
+  max-width: 100%;
+  height: 100%;
+}
 
 /* Refund Policy */
 
