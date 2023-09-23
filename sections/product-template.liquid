@@ -313,7 +313,7 @@
                   {%- Standard Delivery -%}
                   {%- endcomment -%}
                   {% assign standard_delivery_date = ""%}
-                  {% assign current_hour = 0 %}
+                  {% assign current_hour = 20 %}
 
                   {% if current_hour < 15 %}
                     {% assign standard_delivery_date =  "now" | date: "%s" | plus: 86400 %}
@@ -329,7 +329,7 @@
                   {% if standard_delivery_day == "Sun" %}
                     {% assign standard_delivery_date = standard_delivery_date | plus: 86400 %}
                   {% endif %}
-                  
+
                   <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ standard_delivery_date | date: "%a, %-d %B" }}<br>
                  
                 
