@@ -312,14 +312,16 @@
                   {%- comment -%}
                   {%- Standard Delivery -%}
                   {%- endcomment -%}
+                  {% assign standard_delivery_date = ""%}
+
                   {% assign current_hour = 0 %}
                   {% if current_hour < 15 %}
-                    <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ "now" | date: "%s" | plus: 86400 | date: "%a, %-d %B" }}<br>
+                    {% assign standard_delivery_date =  "now" | date: "%s" | plus: 86400 | date: "%a, %-d %B" %}
                   {% else %}
-                    <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }}<br>
+                    {% assign standard_delivery_date =  "now" | date: "%s" | plus: 172000 | date: "%a, %-d %B" %}
                   {% endif %}
 
-                  
+                  <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ standard_delivery_date }}<br>
                  
                 
                   {%- comment -%}
