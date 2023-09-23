@@ -316,9 +316,9 @@
 
                   {% assign current_hour = 0 %}
                   {% if current_hour < 15 %}
-                    {% assign standard_delivery_date =  "now" | date: "%s" | plus: 864000 | date: "%a, %-d %B" %}
+                    {% assign standard_delivery_date =  "now" | date: "%s" | plus: 86400 | date: "%a, %-d %B" %}
                   {% else %}
-                    {% assign standard_delivery_date =  "now" | date: "%s" | plus: 1720000 | date: "%a, %-d %B" %}
+                    {% assign standard_delivery_date =  "now" | date: "%s" | plus: 172000 | date: "%a, %-d %B" %}
                   {% endif %}
 
                   <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ standard_delivery_date }}<br>
