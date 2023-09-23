@@ -133,7 +133,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/modern-living-room-style.jpg",
-              "apply_overlay": false,
+              "apply_overlay": true,
               "content_position": "middleCenter",
               "subheading": "",
               "title": "",
