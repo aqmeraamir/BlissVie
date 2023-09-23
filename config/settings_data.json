@@ -133,13 +133,13 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/modern-living-room-style.jpg",
-              "apply_overlay": true,
-              "content_position": "bottomLeft",
+              "apply_overlay": false,
+              "content_position": "middleCenter",
               "subheading": "",
-              "title": "Elevate Home living!",
-              "button_1_text": "",
+              "title": "",
+              "button_1_text": "View all products",
               "button_1_link": "",
-              "button_2_text": "",
+              "button_2_text": "Shop by collection",
               "button_2_link": ""
             }
           },
