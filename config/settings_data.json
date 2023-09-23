@@ -97,7 +97,7 @@
             "settings": {
               "title": "About Us",
               "content": "<p>Bliss Vie, your destination for premium home decor that effortlessly combines quality and affordability. We specialize in crafting modern Nordic-inspired items designed to transform your living spaces into havens of style and comfort.<br\/>At Bliss Vie, we believe that creating a beautiful home should be accessible to all, and that's why we offer a curated selection of high-quality products at reasonable prices. Whether you're seeking chic and minimalist designs or timeless classics, our collection has something to suit every taste.<\/p>",
-              "show_social_media": true
+              "show_social_media": false
             }
           },
           "footer-1": {
