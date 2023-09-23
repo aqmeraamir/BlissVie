@@ -282,23 +282,26 @@
             {%- render 'product-form', product: product -%}
           {%- endif -%}
 
+          {%- comment -%}
+          {%- Estimated_Delivery -%}
+          {%- endcomment -%}
           <div class="Estimated_Delivery">
 
-              {% assign found_dropsh_tag = false %}
+            {%- comment -%}
+            {%- Check for dropsh tag -%}
+            {%- endcomment -%}
+            {% assign found_dropsh_tag = false %}
 
-              {% for tag in product.tags %}
-                {% if tag contains 'dropsh' %}
-                  {% assign found_dropsh_tag = true %}
+            {% for tag in product.tags %}
+              {% if tag contains 'dropsh' %}
+                {% assign found_dropsh_tag = true %}
                   <strong><i class="fa-solid fa-truck"></i> Standard Delivery: 7-10 days</strong>
-                  {% break %} 
-                {% endif %}
-              {% endfor %}
+                {% break %} 
+              {% endif %}
+            {% endfor %}
               
-              {% unless found_dropsh_tag %}
-                <p>
-                  <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }} - {{ "now" | date: "%s" | plus: 259200  | date: "%a, %-d %B" }}<br>
-                  <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
-
+            {% unless found_dropsh_tag %}
+              <p>
                   {% assign current_hour = "now" | date: "%H" | plus: 0 %}
                   {% assign current_minute = "now" | date: "%M" | plus: 0 %}
                   {% assign target_hour = 11 %}
@@ -306,6 +309,23 @@
                   {% assign hours_until_delivery = target_hour | minus: current_hour %}
                   {% assign minutes_until_delivery = target_minute | minus: current_minute %}
 
+                  {%- comment -%}
+                  {%- Standard Delivery -%}
+                  {%- endcomment -%}
+
+                  {% if current_hour < 15 %}
+                    <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ "now" | date: "%s" | plus: 86400 | date: "%a, %-d %B" }}<br>
+                  {% else %}
+                    <strong><i class="fa-solid fa-truck"></i> Standard Delivery:</strong> {{ "now" | date: "%s" | plus: 172800 | date: "%a, %-d %B" }}<br>
+                  {% endif %}
+
+                  
+                 
+                
+                  {%- comment -%}
+                  {%- Express Delivery -%}
+                  {%- endcomment -%}
+                  <strong><i class="fa-solid fa-truck-fast fa-beat-fade"></i>  Express Delivery:</strong>
 
                   {% if minutes_until_delivery < 0 %}
                     {% assign hours_until_delivery = hours_until_delivery | minus: 1 %}
@@ -321,8 +341,9 @@
                   {% else %}
                     Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and get it <em>tomorrow!</em>
                   {% endif %}
-                </p>
-              {% endunless %}
+                  
+              </p>
+            {% endunless %}
               
               
 
