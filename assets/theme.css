@@ -10971,7 +10971,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 
-/* Product Hover */
+/* Product Hover 
 .ProductItem {
   position: relative;
 }
@@ -10986,12 +10986,12 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   display: block;
   width: 100%;
   height: auto;
-    transition: opacity 0.2s linear; /* Added transition for opacity */
-  opacity: 1; /* Start with full opacity */
+    transition: opacity 0.2s linear; 
+  opacity: 1; 
 }
 
 .ProductItem:hover .ProductItem__Image {
-  opacity: 0; /* On hover, fade out the image */
+  opacity: 0;
   
 }
 
@@ -11014,7 +11014,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .ProductItem:hover .ProductItem__Hover {
   opacity: 1;
   pointer-events: auto;
-  z-index: 1; /* Ensure hover content appears above the image */
+  z-index: 1;
 }
 
 .ProductItem__Hover .ProductItem__ImageWrapper {
@@ -11026,6 +11026,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   max-width: 100%;
   height: 100%;
 }
+*/
+
 
 /* Refund Policy */
 
