@@ -10971,7 +10971,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 
-/* Product Hover 
+ 
 .ProductItem {
   position: relative;
 }
@@ -10990,6 +10990,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   opacity: 1; 
 }
 
+/*
 .ProductItem:hover .ProductItem__Image {
   opacity: 0;
   
