@@ -112,7 +112,7 @@
             "settings": {
               "title": "Contact Us",
               "content": "<p>📩  <a href=\"mailto:info@blissvie.com\" target=\"_blank\" title=\"info@blissvie.com\">info@blissvie.com<\/a><\/p><p>📌 <a href=\"https:\/\/goo.gl\/maps\/xqieTtxgnqrueZVU6\" target=\"_blank\" title=\"https:\/\/goo.gl\/maps\/xqieTtxgnqrueZVU6\"><span style=\"text-decoration:underline\">Office: Sharjah Publishing City, Business Center - Free Zone - Al Zahia - Sharjah <\/span><\/a><\/p>",
-              "show_social_media": false
+              "show_social_media": true
             }
           }
         },
