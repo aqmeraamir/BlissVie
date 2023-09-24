@@ -98,7 +98,7 @@
             "settings": {
               "title": "About Us",
               "content": "<p>Bliss Vie, your destination for premium home decor that effortlessly combines quality and affordability. We specialize in crafting modern Nordic-inspired items designed to transform your living spaces into havens of style and comfort.<br\/>At Bliss Vie, we believe that creating a beautiful home should be accessible to all, and that's why we offer a curated selection of high-quality products at reasonable prices.<\/p>",
-              "show_social_media": false
+              "show_social_media": true
             }
           },
           "footer-1": {
@@ -114,12 +114,20 @@
               "content": "<p>📩  <a href=\"mailto:info@blissvie.com\" target=\"_blank\" title=\"info@blissvie.com\">info@blissvie.com<\/a><\/p><p>📌 <a href=\"https:\/\/goo.gl\/maps\/xqieTtxgnqrueZVU6\" target=\"_blank\" title=\"https:\/\/goo.gl\/maps\/xqieTtxgnqrueZVU6\"><span style=\"text-decoration:underline\">Office: Sharjah Publishing City, Business Center - Free Zone - Al Zahia - Sharjah <\/span><\/a><\/p>",
               "show_social_media": true
             }
+          },
+          "2805f49f-9245-4ec6-b315-9e814b217334": {
+            "type": "links",
+            "disabled": true,
+            "settings": {
+              "menu": ""
+            }
           }
         },
         "block_order": [
           "b92107a6-5e65-4eb5-8983-96727088c218",
           "footer-1",
-          "footer-0"
+          "footer-0",
+          "2805f49f-9245-4ec6-b315-9e814b217334"
         ],
         "settings": {
           "show_payment_methods": true,
