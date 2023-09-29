@@ -922,6 +922,12 @@
           "wrapper_selector": ".SidebarMenu__Nav--primary",
           "custom_css": ".gtranslate_wrapper {\nposition: absolute!important;\ntop: 10px!important;\nright: 3%!important;\nz-index:99999!important;\n}\n\n.glink {\ncolor:white!important;\npadding:4px!important;\n}\n\n\n.gt_container--86j4gi .glink {\nposition:relative!important;\ntop:15px!important;\n}"
         }
+      },
+      "4438342674972304479": {
+        "type": "shopify:\/\/apps\/meetanshi-whatsapp-chat\/blocks\/app-embed\/d0c3ae5c-f7c2-414a-979a-d523fc1212a9",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
