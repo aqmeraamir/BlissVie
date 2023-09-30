@@ -360,8 +360,8 @@
                     {% assign today_date="now" | date: "%d" | plus: 0 %}
                     {% assign tomorrow_sec="now" | date: "%s" | plus: 86400 %}
                     {% assign dayaftertomorrow_sec="now"|  date: "%s" | plus: 172800 %}
-                    {% assign tomorrow_date=tomorrow_sec | date: "%d" | plus:0 %}
-                    {% assign dayaftertomorrow_date=dayaftertomorrow_sec | date: "%d" | plus:0 %}
+                    {% assign tomorrow_date=tomorrow_sec | date: "%d"  %}
+                    {% assign dayaftertomorrow_date=dayaftertomorrow_sec | date: "%d" %}
 
 
                 
