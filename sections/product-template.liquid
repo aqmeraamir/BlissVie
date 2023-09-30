@@ -357,14 +357,14 @@
                       {% assign exp_delivery_date = exp_delivery_date | plus: 86400 %}
                     {% endif %}
 
-                    {%  assign t1=exp_delivery_date | date:"%d" %}     
+                    {%  assign t1=exp_delivery_date | date:"%d" %}     +1
                     {%  assign t2="now" | date:"%d" %}     
               
-                    {%  assign delivery_today_diff=t1-t2 %}
+                    {%  assign delivery_today_diff= t1-t2 %}
    
                     
                 
-                    {% if delivery_today_diff <1  %}
+                    {% if delivery_today_diff <2  %}
                        {% assign exp_delivery_text = "Today" %}      
                      
                     {% else %}
