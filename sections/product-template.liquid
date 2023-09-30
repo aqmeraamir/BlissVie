@@ -360,7 +360,7 @@
                     {%  assign exp_delivery_day_int=exp_delivery_date | date:"%d" | plus: 0 %}
                     {%  assign today_day_int= "now" | date:"%d" | plus: 0 %}
                 
-                    {% if exp_delivery_day_int < today_day_int    %}
+                    {% if exp_delivery_day_int == today_day_int    %}
                        {% assign exp_delivery_text = "Today" %}      
                     {% else %}
                        {% assign exp_delivery_text = "Tomorrow" %}      
