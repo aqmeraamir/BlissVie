@@ -355,9 +355,6 @@
                       {% assign exp_delivery_date = exp_delivery_date | plus: 86400 %}
                     {% endif %}
 
-                    {% assign var1=exp_delivery_date | date: "%d"%}
-                    {% assign var2="now" | date: "%d"%}
-                    {% assign var3=var1 | minus: var2%}
                 
                      Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and <em>get it {{ exp_delivery_date| date: "%a, %-d %B"}}</em>
 
