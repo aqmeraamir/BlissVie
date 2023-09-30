@@ -364,11 +364,11 @@
    
                     
                 
-                    {% if delivery_today_diff == 0   %}
+                    {% if delivery_today_diff == 2   %}
                        {% assign exp_delivery_text = "Today" %}      
                     {% else delivery_today_diff == 1 %}
                        {% assign exp_delivery_text = "Tomorrow" %}   
-                    {% else delivery_today_diff == 2 %}
+                    {% else delivery_today_diff == 0 %}
                        {% assign exp_delivery_text = "Day after Tomorrow" %}   
                 
                     {% endif %}
