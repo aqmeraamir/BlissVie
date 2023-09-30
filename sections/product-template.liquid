@@ -357,7 +357,10 @@
                       {% assign exp_delivery_date = exp_delivery_date | plus: 86400 %}
                     {% endif %}
 
-                    {%  assign delivery_today_diff=exp_delivery_date | date:"%d" | minus: "now" | date:"%d" %}
+                    {%  assign t1=exp_delivery_date | date:"%d" %}     
+                    {%  assign t2="now" | date:"%d" %}     
+              
+                    {%  assign delivery_today_diff=t1-t2 %}
    
                     
                 
