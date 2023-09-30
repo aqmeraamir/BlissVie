@@ -364,7 +364,7 @@
    
                     
                 
-                    {% if delivery_today_diff == 2   %}
+                    {% if delivery_today_diff <0.5   %}
                        {% assign exp_delivery_text = "Today" %}      
                     {% else delivery_today_diff == 1 %}
                        {% assign exp_delivery_text = "Tomorrow" %}   
