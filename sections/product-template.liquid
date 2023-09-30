@@ -357,7 +357,9 @@
                       {% assign exp_delivery_date = exp_delivery_date | plus: 86400 %}
                     {% endif %}
 
-                    {% if exp_delivery_date < 5 %}
+                    {%  assign mine=exp_delivery_date | date:"%s" | plus: 0 %}
+                
+                    {% if mine < 5   %}
                        {% assign exp_delivery_text = 2 %}      
                     {% else %}
                        {% assign exp_delivery_text = 3 %}      
