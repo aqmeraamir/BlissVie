@@ -304,11 +304,11 @@
               <p>
                   {% assign current_hour = "now" | date: "%H" | plus: 0 %}
                   {% assign current_minute = "now" | date: "%M" | plus: 0 %}
-                  {% assign target_hour = 11 %}
-                  {% assign target_minute = 0 %}
+                  {% assign target_hour = 10 %}
+                  {% assign target_minute = 59 %}
 
-                  {% assign current_hour = 10 %}
-                  {% assign current_minute = 59 %}
+                  {% assign current_hour = 11 %}
+                  {% assign current_minute = 00 %}
               
                   {% assign hours_until_delivery = target_hour | minus: current_hour %}
                   {% assign minutes_until_delivery = target_minute | minus: current_minute %}
