@@ -357,9 +357,14 @@
                       {% assign exp_delivery_date = exp_delivery_date | plus: 86400 %}
                     {% endif %}
 
+                    {% if exp_delivery_date< 5 %}
+                       {% assign exp_delivery_date = 2 %}      
+                    {% else %}
+                       {% assign exp_delivery_date = 3 %}      
+                    {% endif %}
 
                 
-                     Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and <em>get it {{ exp_delivery_date| date: "%a, %-d %B"}}</em>
+                     Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and <em>get it {{ exp_delivery_date| date: "%a, %-d %B"}}, exp_delivery_text</em>
 
 
                 {%- comment -%}
