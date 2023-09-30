@@ -355,11 +355,23 @@
                       {% assign exp_delivery_date = exp_delivery_date | plus: 86400 %}
                     {% endif %}
 
-                    {% assign var1=exp_delivery_date | date: "%d"%}
-                    {% assign var2="now" | date: "%d"%}
-                    {% assign var3=var1 | minus: var2%}
+                    {% assign exp_delivery_date_no=exp_delivery_date | date: "%d"%}
+                    {% assign today_date="now" | date: "%d" | plus: 0 %}
+                    {% assign tomorrow_date="now" | date: "%d" | plus: 1 %}
+                    {% assign dayaftertomorrow_date="now" | date: "%d" | plus: 2 %}
+
+                    {%  if exp_delivery_date_no == today_date %}
+                      {% assign out_text="Today" %}
+                    {% endif %} 
+                    {%  if exp_delivery_date_no == tomorrow_date %}
+                      {% assign out_text="Tomorrow" %}
+                     {% endif %}
+                      {%  if exp_delivery_date_no == dayaftertomorrow_date %}
+                      {% assign out_text="Day after Tomorrow" %}
+                     {% endif %}
                 
-                     Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and <em>get it {{ exp_delivery_date| date: "%a, %-d %B"}}, {{ var1 }},{{ var2 }},{{ var3 }}</em>
+                
+                     Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and <em>get it {{ exp_delivery_date| date: "%a, %-d %B"}}, out_text</em>
 
 
                 {%- comment -%}
