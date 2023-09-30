@@ -352,6 +352,13 @@
                        {% assign exp_delivery_date = "now" | date: "%s" | plus: 86400 %}    
                     {% endif %}
 
+                    {% assign exp_delivery_day = exp_delivery_date | date: "%a" %}
+                    {% if exp_delivery_day == "Sun" %}
+                      {% assign exp_delivery_date = exp_delivery_date | plus: 86400 %}
+                    {% endif %}
+
+
+                
                      Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and <em>get it {{ exp_delivery_date| date: "%a, %-d %B"}}</em>
 
 
