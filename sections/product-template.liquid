@@ -360,7 +360,7 @@
                     {% assign tomorrow_date="now" | date: "%d" | plus: 1 %}
                     {% assign dayaftertomorrow_date="now" | date: "%d" | plus: 2 %}
 
-                    assign out_text="Test"
+                    {% assign out_text="Test" %}
                     {%  if exp_delivery_date_no == today_date %}
                       {% assign out_text="Today" %}
                     {% endif %} 
