@@ -357,8 +357,8 @@
 
                     {% assign exp_delivery_date_no=exp_delivery_date | date: "%d"%}
                     {% assign today_date="now" | date: "%d" | plus: 0 %}
-                    {% assign tomorrow_date="tomorrow" | date: "%d" | plus: 0 %}
-                    {% assign dayaftertomorrow_date="xyz" | date: "%d" | plus: 2 %}
+                    {% assign tomorrow_date="now" | plus: 86400 | date: "%d" | plus: 0 %}
+                    {% assign dayaftertomorrow_date="now" | plus: 172800 | date: "%d" | plus: 0 %}
 
                     {% assign out_text="Test" %}
                     {%  if exp_delivery_date_no == today_date %}
