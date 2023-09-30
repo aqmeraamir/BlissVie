@@ -308,7 +308,7 @@
                   {% assign target_minute = 59 %}
 
                   {% assign current_hour = 00 %}
-                  {% assign current_minute = 00 %}
+                  {% assign current_minute = 31 %}
               
                   {% assign hours_until_delivery = target_hour | minus: current_hour %}
                   {% assign minutes_until_delivery = target_minute | minus: current_minute %}
@@ -347,11 +347,25 @@
                     {% endif %}
 
                     {% if current_hour < 11  %}
+                       {% assign exp_delivery_date = "now" | date: "%s" | plus: 0 %}      
+                    {% else %}
+                       {% assign exp_delivery_date = "now" | date: "%s" | plus: 86400 %}    
+                    {% endif %}
+
+                     Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and <em>get it {{ exp_delivery_date}}</em>
+
+
+                {%- comment -%}
+                  
+                  
+                    {% if current_hour < 11  %}
                       Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and <em>get it today!</em>
                     {% else %}
                       Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and get it <em>tomorrow!</em>
                     {% endif %}
-                  
+                {%- endcomment -%}
+
+                
               </p>
             {% endunless %}
     
