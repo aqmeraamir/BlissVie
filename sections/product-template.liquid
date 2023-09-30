@@ -307,8 +307,6 @@
                   {% assign target_hour = 10 %}
                   {% assign target_minute = 59 %}
 
-                  {% assign current_hour = 1 %}
-                  {% assign current_minute = 59 %}
               
                   {% assign hours_until_delivery = target_hour | minus: current_hour %}
                   {% assign minutes_until_delivery = target_minute | minus: current_minute %}
@@ -357,22 +355,7 @@
                       {% assign exp_delivery_date = exp_delivery_date | plus: 86400 %}
                     {% endif %}
 
-                    {%  assign t1=exp_delivery_date  %}
-                    {%  assign t2=now %}     
-              
-                    {%  assign delivery_today_diff= t1-t2 %}
-   
-                    
-                
-                    {% if delivery_today_diff <2  %}
-                       {% assign exp_delivery_text = "Today" %}      
-                     
-                    {% else %}
-                       {% assign exp_delivery_text = "Day after Tomorrow" %}   
-                
-                    {% endif %}
-
-                
+                                 
                      Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and <em>get it {{ exp_delivery_date| date: "%a, %-d %B"}}</em>
 
 
