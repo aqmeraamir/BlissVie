@@ -375,13 +375,15 @@
                       {%  if exp_delivery_date_no == dayaftertomorrow_date %}
                       {% assign out_text="Day after Tomorrow" %}
                      {% endif %}
-                 {% assign out_text=exp_delivery_date_no| append: today_date| append: tomorrow_date| append: dayaftertomorrow_date %}
+                
                   
                      Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and <em>get it {{ out_text }} </em>
 
 
                 {%- comment -%}
-                  
+
+
+               {% assign out_text=exp_delivery_date_no| append: today_date| append: tomorrow_date| append: dayaftertomorrow_date %}
                   
                     {% if current_hour < 11  %}
                       Order within {{ hours_until_delivery }} hours, {{ minutes_until_delivery }} mins and <em>get it today!</em>
