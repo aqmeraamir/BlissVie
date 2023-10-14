@@ -218,19 +218,19 @@
       "featured-collections": {
         "type": "featured-collections",
         "blocks": {
-          "featured-collection-0": {
+          "2a35e7b3-db3b-4fcb-b8cf-6fd5cd864bc4": {
             "type": "collection",
             "settings": {
-              "collection": "vases-bowls",
-              "title": "Vases",
+              "collection": "clocks",
+              "title": "",
               "grid_items_count": 4,
               "button_text": "View all products"
             }
           },
-          "2a35e7b3-db3b-4fcb-b8cf-6fd5cd864bc4": {
+          "featured-collection-0": {
             "type": "collection",
             "settings": {
-              "collection": "trays-plates",
+              "collection": "lighting",
               "title": "",
               "grid_items_count": 4,
               "button_text": "View all products"
@@ -238,8 +238,8 @@
           }
         },
         "block_order": [
-          "featured-collection-0",
-          "2a35e7b3-db3b-4fcb-b8cf-6fd5cd864bc4"
+          "2a35e7b3-db3b-4fcb-b8cf-6fd5cd864bc4",
+          "featured-collection-0"
         ],
         "settings": {
           "title": "",
@@ -574,12 +574,11 @@
           "736a51f2-b834-4f50-ac94-8275bf075ed3-16814070223a645371-2": {
             "type": "collection",
             "settings": {
-              "collection": "abstract-wall-painting",
-              "image": "shopify:\/\/shop_images\/109.jpg",
+              "collection": "accessories",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",
-              "title": "Abstract Wall Art",
+              "title": "",
               "button_text": "View products",
               "button_link": "",
               "apply_overlay": true
@@ -844,8 +843,8 @@
           "bb7dde18-0cba-4043-83e6-114e441985a6-collection-1": {
             "type": "collection",
             "settings": {
-              "collection": "accessories",
-              "title": "",
+              "collection": "large-wall-clock",
+              "title": "Exquisite Large Wall Clocks",
               "grid_items_count": 8,
               "button_text": "View all products"
             }
