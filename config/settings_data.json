@@ -515,7 +515,7 @@
           "show_payment_button": true,
           "show_pickup_availability": false,
           "image_size": "medium",
-          "stack_images": true,
+          "stack_images": false,
           "show_thumbnails": false,
           "enable_image_zoom": true,
           "enable_video_looping": false,
