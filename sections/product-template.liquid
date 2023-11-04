@@ -290,17 +290,23 @@
             {%- comment -%}
             {%- Check for dropsh tag -%}
             {%- endcomment -%}
-            {% assign found_dropsh_tag = false %}
+            {% assign found_drop_tag = false %}
 
             {% for tag in product.tags %}
               {% if tag contains 'dropsh' %}
-                {% assign found_dropsh_tag = true %}
+                {% assign found_drop_tag = true %}
                   <strong><i class="fa-solid fa-truck"></i> Standard Delivery: 7-12 days</strong>
+                {% break %} 
+              {% endif %}
+              
+              {% if tag contains 'dropsh-10-15' %}
+                {% assign found_drop_tag = true %}
+                  <strong><i class="fa-solid fa-truck"></i> Standard Delivery: 10-15 days</strong>
                 {% break %} 
               {% endif %}
             {% endfor %}
               
-            {% unless found_dropsh_tag %}
+            {% unless found_drop_tag %}
               <p>
                   {% assign current_hour = "now" | date: "%H" | plus: 0 %}
                   {% assign current_minute = "now" | date: "%M" | plus: 0 %}
