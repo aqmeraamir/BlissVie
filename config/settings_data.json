@@ -576,15 +576,15 @@
               "apply_overlay": true
             }
           },
-          "736a51f2-b834-4f50-ac94-8275bf075ed3-16814070223a645371-2": {
+          "847b7feb-c29a-48bb-b6ce-98b5042e28ca": {
             "type": "collection",
             "settings": {
-              "collection": "lighting",
-              "image": "shopify:\/\/shop_images\/He27b3b0aeaeb4b3583d8d604bf55b48bl.jpg",
+              "collection": "trays-plates",
+              "image": "shopify:\/\/shop_images\/H801be9f026904ac983b3a47d1acb4cd8Z.webp",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",
-              "title": "",
+              "title": "Trays",
               "button_text": "View products",
               "button_link": "",
               "apply_overlay": true
@@ -604,6 +604,20 @@
               "apply_overlay": true
             }
           },
+          "736a51f2-b834-4f50-ac94-8275bf075ed3-16814070223a645371-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "lighting",
+              "image": "shopify:\/\/shop_images\/He27b3b0aeaeb4b3583d8d604bf55b48bl.jpg",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "",
+              "button_text": "View products",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          },
           "5ff19135-5db2-4287-b9ac-baf757952884": {
             "type": "collection",
             "settings": {
@@ -612,20 +626,7 @@
               "content_position": "bottomLeft",
               "subheading": "Sub-heading",
               "title": "Clocks",
-              "button_text": "View products",
-              "button_link": "",
-              "apply_overlay": true
-            }
-          },
-          "847b7feb-c29a-48bb-b6ce-98b5042e28ca": {
-            "type": "collection",
-            "settings": {
-              "collection": "trays-plates",
-              "image_alignment": "center center",
-              "content_position": "bottomLeft",
-              "subheading": "Sub-heading",
-              "title": "Trays",
-              "button_text": "View products",
+              "button_text": "",
               "button_link": "",
               "apply_overlay": true
             }
@@ -646,10 +647,10 @@
         },
         "block_order": [
           "33caa360-9aea-4306-ae60-56c8ec081078",
-          "736a51f2-b834-4f50-ac94-8275bf075ed3-16814070223a645371-2",
-          "21280d75-4fb8-4973-8d40-d2b35a112dfc",
-          "5ff19135-5db2-4287-b9ac-baf757952884",
           "847b7feb-c29a-48bb-b6ce-98b5042e28ca",
+          "21280d75-4fb8-4973-8d40-d2b35a112dfc",
+          "736a51f2-b834-4f50-ac94-8275bf075ed3-16814070223a645371-2",
+          "5ff19135-5db2-4287-b9ac-baf757952884",
           "26111836-81e4-4c30-a4f0-a73a87e8e8e0"
         ],
         "settings": {
