@@ -138,20 +138,6 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
-          "5b3c1dbf-9bf3-44d3-adea-975484c0d630": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/modern-living-room-style.jpg",
-              "apply_overlay": false,
-              "content_position": "middleCenter",
-              "subheading": "",
-              "title": "ELevate home living!",
-              "button_1_text": "View all products",
-              "button_1_link": "shopify:\/\/collections\/all",
-              "button_2_text": "Shop by collection",
-              "button_2_link": "shopify:\/\/collections"
-            }
-          },
           "0a83e65a-4ff8-4ae4-a159-2600b40cd8ef": {
             "type": "image",
             "settings": {
@@ -165,6 +151,20 @@
               "button_1_link": "shopify:\/\/collections",
               "button_2_text": "View all products",
               "button_2_link": "shopify:\/\/collections\/all"
+            }
+          },
+          "5b3c1dbf-9bf3-44d3-adea-975484c0d630": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/modern-living-room-style.jpg",
+              "apply_overlay": false,
+              "content_position": "middleCenter",
+              "subheading": "",
+              "title": "ELevate home living!",
+              "button_1_text": "View all products",
+              "button_1_link": "shopify:\/\/collections\/all",
+              "button_2_text": "Shop by collection",
+              "button_2_link": "shopify:\/\/collections"
             }
           },
           "slide-0": {
@@ -213,8 +213,8 @@
           }
         },
         "block_order": [
-          "5b3c1dbf-9bf3-44d3-adea-975484c0d630",
           "0a83e65a-4ff8-4ae4-a159-2600b40cd8ef",
+          "5b3c1dbf-9bf3-44d3-adea-975484c0d630",
           "slide-0",
           "3203bfc1-dc9c-49d4-be92-71e0d94eded3",
           "c676fa7e-08d8-47df-a4bc-d7d5cf988901"
