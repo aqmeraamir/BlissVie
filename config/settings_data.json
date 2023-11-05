@@ -657,7 +657,7 @@
         ],
         "settings": {
           "image_size": "small",
-          "add_spacing": true,
+          "add_spacing": false,
           "expand_collection": false,
           "stack_on_mobile": true,
           "text_color": "#ffffff",
