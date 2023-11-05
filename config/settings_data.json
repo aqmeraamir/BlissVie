@@ -879,6 +879,32 @@
           "grid_mobile_items_per_row": "2",
           "grid_desktop_items_per_row": 4
         }
+      },
+      "2aec6094-fa9e-43fd-9992-367dd540e6fb": {
+        "type": "featured-collections",
+        "blocks": {
+          "2aec6094-fa9e-43fd-9992-367dd540e6fb-collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "clocks",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
+          }
+        },
+        "block_order": [
+          "2aec6094-fa9e-43fd-9992-367dd540e6fb-collection-1"
+        ],
+        "settings": {
+          "title": "",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
       }
     },
     "content_for_index": [
@@ -889,7 +915,8 @@
       "8c81192e-191e-4f5e-b689-9fede5d5974d",
       "4204f6a7-e2dd-4b51-ae5e-3ae0364a9d33",
       "ef6cfcc2-9b1d-4c5a-962b-efc20e5b574f",
-      "39bf1be5-5952-4db2-b43f-48cc615d83b9"
+      "39bf1be5-5952-4db2-b43f-48cc615d83b9",
+      "2aec6094-fa9e-43fd-9992-367dd540e6fb"
     ],
     "blocks": {
       "11354984448963461329": {
