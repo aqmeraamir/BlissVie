@@ -153,27 +153,12 @@
               "button_2_link": "shopify:\/\/collections\/all"
             }
           },
-          "c676fa7e-08d8-47df-a4bc-d7d5cf988901": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/1_bed1197e-4479-413d-a6c4-1af79eb59f56.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/Ha6c3caed10f64b89a588b72a6d22de0.jpg",
-              "apply_overlay": false,
-              "content_position": "bottomLeft",
-              "subheading": "Slide title",
-              "title": "Tell your story",
-              "button_1_text": "",
-              "button_1_link": "",
-              "button_2_text": "",
-              "button_2_link": ""
-            }
-          },
           "slide-0": {
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Design_aa2d64da-73b5-424b-a8c5-308d6e92db4f.png",
               "mobile_image": "shopify:\/\/shop_images\/Screenshot_2023-07-22_at_7.34.59_PM.png",
-              "apply_overlay": false,
+              "apply_overlay": true,
               "content_position": "bottomRight",
               "subheading": "",
               "title": "Marble Collection",
@@ -198,6 +183,21 @@
               "button_2_link": "shopify:\/\/collections"
             }
           },
+          "c676fa7e-08d8-47df-a4bc-d7d5cf988901": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_bed1197e-4479-413d-a6c4-1af79eb59f56.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/Ha6c3caed10f64b89a588b72a6d22de0.jpg",
+              "apply_overlay": false,
+              "content_position": "bottomLeft",
+              "subheading": "Slide title",
+              "title": "Tell your story",
+              "button_1_text": "",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          },
           "3203bfc1-dc9c-49d4-be92-71e0d94eded3": {
             "type": "image",
             "settings": {
@@ -216,9 +216,9 @@
         },
         "block_order": [
           "0a83e65a-4ff8-4ae4-a159-2600b40cd8ef",
-          "c676fa7e-08d8-47df-a4bc-d7d5cf988901",
           "slide-0",
           "5b3c1dbf-9bf3-44d3-adea-975484c0d630",
+          "c676fa7e-08d8-47df-a4bc-d7d5cf988901",
           "3203bfc1-dc9c-49d4-be92-71e0d94eded3"
         ],
         "settings": {
