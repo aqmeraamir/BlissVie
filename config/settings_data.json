@@ -636,6 +636,7 @@
             "type": "collection",
             "settings": {
               "collection": "vases-bowls",
+              "image": "shopify:\/\/shop_images\/1_4_0551be64-3154-4c83-962d-00ca0703d81b.jpg",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",
