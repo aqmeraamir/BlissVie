@@ -603,12 +603,26 @@
               "button_link": "",
               "apply_overlay": true
             }
+          },
+          "5ff19135-5db2-4287-b9ac-baf757952884": {
+            "type": "collection",
+            "settings": {
+              "collection": "clocks",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "button_link": "",
+              "apply_overlay": true
+            }
           }
         },
         "block_order": [
           "33caa360-9aea-4306-ae60-56c8ec081078",
           "736a51f2-b834-4f50-ac94-8275bf075ed3-16814070223a645371-2",
-          "21280d75-4fb8-4973-8d40-d2b35a112dfc"
+          "21280d75-4fb8-4973-8d40-d2b35a112dfc",
+          "5ff19135-5db2-4287-b9ac-baf757952884"
         ],
         "settings": {
           "image_size": "small",
