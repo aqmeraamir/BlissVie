@@ -670,10 +670,20 @@
               "grid_items_count": 8,
               "button_text": "View all products"
             }
+          },
+          "c553eff1-09ad-4809-9dc6-dff7598aac6b": {
+            "type": "collection",
+            "settings": {
+              "collection": "trays-plates",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
           }
         },
         "block_order": [
-          "39bf1be5-5952-4db2-b43f-48cc615d83b9-collection-1"
+          "39bf1be5-5952-4db2-b43f-48cc615d83b9-collection-1",
+          "c553eff1-09ad-4809-9dc6-dff7598aac6b"
         ],
         "settings": {
           "title": "",
