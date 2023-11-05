@@ -711,7 +711,7 @@
             "type": "collection",
             "settings": {
               "collection": "crystal",
-              "title": "Crystal",
+              "title": "Crystal PIeces",
               "grid_items_count": 8,
               "button_text": "View all products"
             }
