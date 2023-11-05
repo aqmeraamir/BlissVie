@@ -203,7 +203,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Design_1_3.png",
               "mobile_image": "shopify:\/\/shop_images\/Design_1_3.png",
-              "apply_overlay": false,
+              "apply_overlay": true,
               "content_position": "middleCenter",
               "subheading": "",
               "title": "",
