@@ -473,7 +473,7 @@
           "show_sort_by": true,
           "show_layout_switch": true,
           "toolbar_position": "top",
-          "filter_position": "sidebar",
+          "filter_position": "drawer",
           "filter_mode": "hidden",
           "show_filter_color_swatch": false,
           "filter_menu": "main-menu",
