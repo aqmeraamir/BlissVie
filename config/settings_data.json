@@ -157,6 +157,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/1_bed1197e-4479-413d-a6c4-1af79eb59f56.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/Ha6c3caed10f64b89a588b72a6d22de0.jpg",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "Slide title",
