@@ -143,10 +143,10 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/B2_b32cff63-c7f5-45a9-aa86-51e996b78013.jpg",
               "mobile_image": "shopify:\/\/shop_images\/this.jpg",
-              "apply_overlay": false,
+              "apply_overlay": true,
               "content_position": "bottomCenter",
               "subheading": "",
-              "title": "",
+              "title": "ELevate home living!",
               "button_1_text": "Shop by collection",
               "button_1_link": "shopify:\/\/collections",
               "button_2_text": "View all products",
@@ -185,6 +185,7 @@
           },
           "5b3c1dbf-9bf3-44d3-adea-975484c0d630": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/modern-living-room-style.jpg",
               "apply_overlay": false,
