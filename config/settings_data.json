@@ -197,13 +197,28 @@
               "button_2_text": "15% off orders over aed 400",
               "button_2_link": ""
             }
+          },
+          "c676fa7e-08d8-47df-a4bc-d7d5cf988901": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/H2447f235a7f44b7689f916b95dab37e.jpg",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "Slide title",
+              "title": "Tell your story",
+              "button_1_text": "",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
           }
         },
         "block_order": [
           "5b3c1dbf-9bf3-44d3-adea-975484c0d630",
           "0a83e65a-4ff8-4ae4-a159-2600b40cd8ef",
           "slide-0",
-          "3203bfc1-dc9c-49d4-be92-71e0d94eded3"
+          "3203bfc1-dc9c-49d4-be92-71e0d94eded3",
+          "c676fa7e-08d8-47df-a4bc-d7d5cf988901"
         ],
         "settings": {
           "show_fullscreen": true,
