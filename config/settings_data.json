@@ -715,10 +715,20 @@
               "grid_items_count": 8,
               "button_text": "View all products"
             }
+          },
+          "0f13f38b-09a5-4928-b317-8e415827eea3": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
           }
         },
         "block_order": [
-          "c553eff1-09ad-4809-9dc6-dff7598aac6b"
+          "c553eff1-09ad-4809-9dc6-dff7598aac6b",
+          "0f13f38b-09a5-4928-b317-8e415827eea3"
         ],
         "settings": {
           "title": "",
@@ -863,18 +873,6 @@
           "grid_desktop_items_per_row": 4
         }
       },
-      "ef6cfcc2-9b1d-4c5a-962b-efc20e5b574f": {
-        "type": "text-with-image",
-        "settings": {
-          "subheading": "",
-          "title": "TABLE TOP FOUNTAINS",
-          "image": "shopify:\/\/shop_images\/E_3.jpg",
-          "image_position": "left",
-          "content": "<p>Shop our exquisite indoor water features, bringing serenity through gentle cascades. Crafted for compact spaces, they elevate ambiance with their calming sounds, making them perfect for enhancing interior aesthetics and relaxation.<\/p>",
-          "link_text": "VIEW COLLECTION",
-          "link_url": "shopify:\/\/collections\/fountains"
-        }
-      },
       "4204f6a7-e2dd-4b51-ae5e-3ae0364a9d33": {
         "type": "image-with-text-overlay",
         "disabled": true,
@@ -944,7 +942,7 @@
       "7317b74c-c51f-4841-8dc4-f74d4ca94226": {
         "type": "background-video",
         "settings": {
-          "section_size": "normal",
+          "section_size": "large",
           "video_url": "https:\/\/youtu.be\/-76TmTtfBxw"
         }
       }
@@ -958,7 +956,6 @@
       "4204f6a7-e2dd-4b51-ae5e-3ae0364a9d33",
       "39bf1be5-5952-4db2-b43f-48cc615d83b9",
       "2aec6094-fa9e-43fd-9992-367dd540e6fb",
-      "ef6cfcc2-9b1d-4c5a-962b-efc20e5b574f",
       "7317b74c-c51f-4841-8dc4-f74d4ca94226"
     ],
     "blocks": {
