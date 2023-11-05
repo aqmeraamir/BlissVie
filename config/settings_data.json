@@ -707,27 +707,17 @@
       "39bf1be5-5952-4db2-b43f-48cc615d83b9": {
         "type": "featured-collections",
         "blocks": {
-          "39bf1be5-5952-4db2-b43f-48cc615d83b9-collection-1": {
-            "type": "collection",
-            "settings": {
-              "collection": "vases-bowls",
-              "title": "",
-              "grid_items_count": 8,
-              "button_text": "View all products"
-            }
-          },
           "c553eff1-09ad-4809-9dc6-dff7598aac6b": {
             "type": "collection",
             "settings": {
-              "collection": "trays-plates",
-              "title": "",
+              "collection": "crystal",
+              "title": "Crystal",
               "grid_items_count": 8,
               "button_text": "View all products"
             }
           }
         },
         "block_order": [
-          "39bf1be5-5952-4db2-b43f-48cc615d83b9-collection-1",
           "c553eff1-09ad-4809-9dc6-dff7598aac6b"
         ],
         "settings": {
@@ -959,9 +949,9 @@
       "bb7dde18-0cba-4043-83e6-114e441985a6",
       "8c81192e-191e-4f5e-b689-9fede5d5974d",
       "4204f6a7-e2dd-4b51-ae5e-3ae0364a9d33",
-      "ef6cfcc2-9b1d-4c5a-962b-efc20e5b574f",
       "39bf1be5-5952-4db2-b43f-48cc615d83b9",
-      "2aec6094-fa9e-43fd-9992-367dd540e6fb"
+      "2aec6094-fa9e-43fd-9992-367dd540e6fb",
+      "ef6cfcc2-9b1d-4c5a-962b-efc20e5b574f"
     ],
     "blocks": {
       "11354984448963461329": {
