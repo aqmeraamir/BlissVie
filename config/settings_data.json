@@ -942,7 +942,7 @@
       "7317b74c-c51f-4841-8dc4-f74d4ca94226": {
         "type": "background-video",
         "settings": {
-          "section_size": "large",
+          "section_size": "small",
           "video_url": "https:\/\/youtu.be\/-76TmTtfBxw"
         }
       }
