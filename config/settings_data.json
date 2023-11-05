@@ -520,7 +520,7 @@
           "show_payment_button": true,
           "show_pickup_availability": false,
           "image_size": "medium",
-          "stack_images": false,
+          "stack_images": true,
           "show_thumbnails": false,
           "enable_image_zoom": true,
           "enable_video_looping": false,
