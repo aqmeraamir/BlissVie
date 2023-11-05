@@ -845,18 +845,18 @@
       "bb7dde18-0cba-4043-83e6-114e441985a6": {
         "type": "featured-collections",
         "blocks": {
-          "bb7dde18-0cba-4043-83e6-114e441985a6-collection-1": {
+          "60a201ad-6929-4aab-a19a-4e92ff7e2b00": {
             "type": "collection",
             "settings": {
-              "collection": "large-wall-clock",
-              "title": "Exquisite Large Wall Clocks",
+              "collection": "ornaments-figurines",
+              "title": "",
               "grid_items_count": 8,
               "button_text": "View all products"
             }
           }
         },
         "block_order": [
-          "bb7dde18-0cba-4043-83e6-114e441985a6-collection-1"
+          "60a201ad-6929-4aab-a19a-4e92ff7e2b00"
         ],
         "settings": {
           "title": "",
