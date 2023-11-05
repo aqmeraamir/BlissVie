@@ -622,9 +622,10 @@
             "type": "collection",
             "settings": {
               "collection": "clocks",
+              "image": "shopify:\/\/shop_images\/5_2_966dc76b-d325-410c-8ad0-f713e289b70d.jpg",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
-              "subheading": "Sub-heading",
+              "subheading": "",
               "title": "Clocks",
               "button_text": "",
               "button_link": "",
