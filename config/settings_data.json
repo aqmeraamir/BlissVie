@@ -579,7 +579,8 @@
           "736a51f2-b834-4f50-ac94-8275bf075ed3-16814070223a645371-2": {
             "type": "collection",
             "settings": {
-              "collection": "accessories",
+              "collection": "lighting",
+              "image": "shopify:\/\/shop_images\/He6f7226f2569479389817b165bd492d70.jpg",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",
