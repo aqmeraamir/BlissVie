@@ -1009,7 +1009,7 @@
       },
       "4438342674972304479": {
         "type": "shopify:\/\/apps\/meetanshi-whatsapp-chat\/blocks\/app-embed\/d0c3ae5c-f7c2-414a-979a-d523fc1212a9",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       }
