@@ -190,10 +190,10 @@
               "mobile_image": "shopify:\/\/shop_images\/Ha6c3caed10f64b89a588b72a6d22de0.jpg",
               "apply_overlay": false,
               "content_position": "bottomLeft",
-              "subheading": "Slide title",
-              "title": "Tell your story",
-              "button_1_text": "",
-              "button_1_link": "",
+              "subheading": "",
+              "title": "",
+              "button_1_text": "Shop now",
+              "button_1_link": "shopify:\/\/collections\/ornaments-figurines",
               "button_2_text": "",
               "button_2_link": ""
             }
@@ -1005,12 +1005,6 @@
           "native_language_names": true,
           "wrapper_selector": ".SidebarMenu__Nav--primary",
           "custom_css": ".gtranslate_wrapper {\nposition: absolute!important;\ntop: 10px!important;\nright: 3%!important;\nz-index:99999!important;\n}\n\n.glink {\ncolor:white!important;\npadding:4px!important;\n}\n\n\n.gt_container--86j4gi .glink {\nposition:relative!important;\ntop:15px!important;\n}"
-        }
-      },
-      "4438342674972304479": {
-        "type": "shopify:\/\/apps\/meetanshi-whatsapp-chat\/blocks\/app-embed\/d0c3ae5c-f7c2-414a-979a-d523fc1212a9",
-        "disabled": false,
-        "settings": {
         }
       }
     }
