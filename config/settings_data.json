@@ -939,13 +939,6 @@
           "grid_mobile_items_per_row": "2",
           "grid_desktop_items_per_row": 4
         }
-      },
-      "7317b74c-c51f-4841-8dc4-f74d4ca94226": {
-        "type": "background-video",
-        "settings": {
-          "section_size": "small",
-          "video_url": "https:\/\/youtu.be\/-76TmTtfBxw"
-        }
       }
     },
     "content_for_index": [
@@ -956,8 +949,7 @@
       "8c81192e-191e-4f5e-b689-9fede5d5974d",
       "4204f6a7-e2dd-4b51-ae5e-3ae0364a9d33",
       "39bf1be5-5952-4db2-b43f-48cc615d83b9",
-      "2aec6094-fa9e-43fd-9992-367dd540e6fb",
-      "7317b74c-c51f-4841-8dc4-f74d4ca94226"
+      "2aec6094-fa9e-43fd-9992-367dd540e6fb"
     ],
     "blocks": {
       "11354984448963461329": {
