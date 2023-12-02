@@ -939,6 +939,13 @@
           "grid_mobile_items_per_row": "2",
           "grid_desktop_items_per_row": 4
         }
+      },
+      "f0b3d497-b62c-4269-9b4c-982b90806c55": {
+        "type": "judgeme_carousel_section",
+        "disabled": true,
+        "settings": {
+          "maxwidth": 1080
+        }
       }
     },
     "content_for_index": [
@@ -949,7 +956,8 @@
       "8c81192e-191e-4f5e-b689-9fede5d5974d",
       "4204f6a7-e2dd-4b51-ae5e-3ae0364a9d33",
       "39bf1be5-5952-4db2-b43f-48cc615d83b9",
-      "2aec6094-fa9e-43fd-9992-367dd540e6fb"
+      "2aec6094-fa9e-43fd-9992-367dd540e6fb",
+      "f0b3d497-b62c-4269-9b4c-982b90806c55"
     ],
     "blocks": {
       "11354984448963461329": {
