@@ -1005,6 +1005,12 @@
           "wrapper_selector": ".SidebarMenu__Nav--primary",
           "custom_css": ".gtranslate_wrapper {\nposition: absolute!important;\ntop: 10px!important;\nright: 3%!important;\nz-index:99999!important;\n}\n\n.glink {\ncolor:white!important;\npadding:4px!important;\n}\n\n\n.gt_container--86j4gi .glink {\nposition:relative!important;\ntop:15px!important;\n}"
         }
+      },
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
