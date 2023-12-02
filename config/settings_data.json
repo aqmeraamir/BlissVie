@@ -942,6 +942,7 @@
       },
       "f0b3d497-b62c-4269-9b4c-982b90806c55": {
         "type": "judgeme_carousel_section",
+        "disabled": true,
         "settings": {
           "maxwidth": 1080
         }
