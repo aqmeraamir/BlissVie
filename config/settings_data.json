@@ -465,7 +465,7 @@
       "collection-template": {
         "type": "collection-template",
         "settings": {
-          "show_collection_info": false,
+          "show_collection_info": true,
           "show_collection_image": true,
           "apply_overlay": true,
           "show_color_swatch": false,
