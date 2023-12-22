@@ -945,11 +945,38 @@
         "settings": {
           "maxwidth": 1080
         }
+      },
+      "cbc3eb46-0635-4463-aaf8-9444b841a2d6": {
+        "type": "featured-collections",
+        "blocks": {
+          "cbc3eb46-0635-4463-aaf8-9444b841a2d6-collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "sale",
+              "title": "Sale",
+              "grid_items_count": 4,
+              "button_text": "View all products"
+            }
+          }
+        },
+        "block_order": [
+          "cbc3eb46-0635-4463-aaf8-9444b841a2d6-collection-1"
+        ],
+        "settings": {
+          "title": "",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "featured-collections",
+      "cbc3eb46-0635-4463-aaf8-9444b841a2d6",
       "736a51f2-b834-4f50-ac94-8275bf075ed3",
       "bb7dde18-0cba-4043-83e6-114e441985a6",
       "8c81192e-191e-4f5e-b689-9fede5d5974d",
