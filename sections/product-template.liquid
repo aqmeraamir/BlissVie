@@ -466,6 +466,40 @@
 
 {%- comment -%}
 --------------------------------------------------------------------------------------------------------------------
+MOQ
+
+MOQ code here
+--------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+{% assign min_quantity = product.metafields.my_fields.minimum_quantity %}
+                {% if min_quantity == blank %}
+                {% assign min_quantity = 1 %}
+                {% endif %}
+                {% assign box_quantity = product.metafields.my_fields.boxx_quantity %}
+               	{% if box_quantity == blank %}
+                {% assign box_quantity = 1 %}
+                {% endif %}
+                
+                <input class="quantity__input"
+                    type="number"
+                    name="quantity"
+                    id="Quantity-{{ section.id }}"
+                    min="{{min_quantity}}"
+                    value="{{min_quantity}}"
+                       step="{{box_quantity}}"
+                       onkeydown="return false"
+                    form="{{ product_form_id }}"
+                  >
+
+
+
+
+
+
+
+{%- comment -%}
+--------------------------------------------------------------------------------------------------------------------
 FEATURED IMAGE
 
 We allow merchants to use one image as a "featured image" by adding the alt tag "featured"
