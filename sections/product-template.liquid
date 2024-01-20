@@ -468,6 +468,7 @@
 --------------------------------------------------------------------------------------------------------------------
 MOQ
 product.metafields.my_fields.minimum_quantity
+ product.metafields.my_fields.boxx_quantity
 
 MOQ code here
 --------------------------------------------------------------------------------------------------------------------
@@ -477,7 +478,7 @@ MOQ code here
                 {% if min_quantity == blank %}
                 {% assign min_quantity = 1 %}
                 {% endif %}
-                {% assign box_quantity = product.metafields.my_fields.boxx_quantity %}
+                {% assign box_quantity = 4 %}
                	{% if box_quantity == blank %}
                 {% assign box_quantity = 1 %}
                 {% endif %}
