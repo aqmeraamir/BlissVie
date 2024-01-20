@@ -471,8 +471,6 @@ product.metafields.my_fields.minimum_quantity
  product.metafields.my_fields.boxx_quantity
 
 MOQ code here
---------------------------------------------------------------------------------------------------------------------
-{%- endcomment -%}
 
 {% assign min_quantity = 6 %}
                 {% if min_quantity == blank %}
@@ -493,6 +491,10 @@ MOQ code here
                        onkeydown="return false"
                     form="{{ product_form_id }}"
                   >
+--------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+
 
 
 
