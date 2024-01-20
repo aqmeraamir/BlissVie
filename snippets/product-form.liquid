@@ -229,7 +229,7 @@ for size, we use it to display a size chart (if applicable)
       {% endcomment %}
 
 
-{% if product.metafields.custom.product_cost == 5 %}
+{% if product.metafields.custom.moq == 5 %}
           <input type="number" class="QuantitySelector__CurrentQuantity" pattern="[0-9]*" name="quantity" min="5" value="5" aria-label="{{ 'product.form.quantity' | t }}">
      {%- else -%}   
 <input type="text" class="QuantitySelector__CurrentQuantity" pattern="[0-9]*" name="quantity" value="1" aria-label="{{ 'product.form.quantity' | t }}">
