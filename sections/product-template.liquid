@@ -467,12 +467,13 @@
 {%- comment -%}
 --------------------------------------------------------------------------------------------------------------------
 MOQ
+product.metafields.my_fields.minimum_quantity
 
 MOQ code here
 --------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
-{% assign min_quantity = product.metafields.my_fields.minimum_quantity %}
+{% assign min_quantity = 6 %}
                 {% if min_quantity == blank %}
                 {% assign min_quantity = 1 %}
                 {% endif %}
