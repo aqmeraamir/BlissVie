@@ -305,7 +305,15 @@
                 {% break %} 
               {% endif %}
             {% endfor %}
-              
+
+            {% if product.metafields.custom.moq == 5 %}
+                  {% assign found_drop_tag = true %}
+                  <strong><i class="fa-solid fa-truck"></i> Standard Delivery: Working days</strong> {{ product.metafields.custom.moq }}
+            {% endif %}
+
+
+
+            
             {% unless found_drop_tag %}
               <p>
                   {% assign current_hour = "now" | date: "%H" | plus: 0 %}
