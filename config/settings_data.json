@@ -663,11 +663,12 @@
           "collection_36yJi7": {
             "type": "collection",
             "settings": {
-              "collection": "",
+              "collection": "islamic-wall-painting",
+              "image": "shopify:\/\/shop_images\/97_0b4a762f-57bb-46f4-a3c7-de33e38e27dd.jpg",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "Sub-heading",
-              "title": "Collection name",
+              "title": "Islamic Painting",
               "button_text": "View products",
               "button_link": "",
               "apply_overlay": true
