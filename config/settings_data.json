@@ -646,6 +646,32 @@
               "button_link": "",
               "apply_overlay": true
             }
+          },
+          "collection_H8zCBF": {
+            "type": "collection",
+            "settings": {
+              "collection": "living-bed-room-wall-art",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Wall Decor",
+              "button_text": "View products",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          },
+          "collection_36yJi7": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "button_link": "",
+              "apply_overlay": true
+            }
           }
         },
         "block_order": [
@@ -654,7 +680,9 @@
           "21280d75-4fb8-4973-8d40-d2b35a112dfc",
           "736a51f2-b834-4f50-ac94-8275bf075ed3-16814070223a645371-2",
           "5ff19135-5db2-4287-b9ac-baf757952884",
-          "26111836-81e4-4c30-a4f0-a73a87e8e8e0"
+          "26111836-81e4-4c30-a4f0-a73a87e8e8e0",
+          "collection_H8zCBF",
+          "collection_36yJi7"
         ],
         "settings": {
           "image_size": "small",
@@ -1049,12 +1077,6 @@
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
           "greeting_message": "Hi, message us with any questions. We're happy to help!"
-        }
-      },
-      "3577669850698438243": {
-        "type": "shopify:\/\/apps\/pre-order-now-wod\/blocks\/app-embed\/fdf17d17-ef12-4a7b-8383-20cc1fc2a4b6",
-        "disabled": false,
-        "settings": {
         }
       }
     }
