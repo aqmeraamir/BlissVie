@@ -673,6 +673,20 @@
               "button_link": "",
               "apply_overlay": true
             }
+          },
+          "collection_dbqLY6": {
+            "type": "collection",
+            "settings": {
+              "collection": "living-bed-room-wall-art",
+              "image": "shopify:\/\/shop_images\/O1CN01Q4vyka26P7zx7TSXO__2214547937653-0-cib.jpg",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Kids Room",
+              "button_text": "View products",
+              "button_link": "",
+              "apply_overlay": true
+            }
           }
         },
         "block_order": [
@@ -683,7 +697,8 @@
           "5ff19135-5db2-4287-b9ac-baf757952884",
           "26111836-81e4-4c30-a4f0-a73a87e8e8e0",
           "collection_H8zCBF",
-          "collection_36yJi7"
+          "collection_36yJi7",
+          "collection_dbqLY6"
         ],
         "settings": {
           "image_size": "small",
