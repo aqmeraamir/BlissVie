@@ -236,10 +236,11 @@
         "blocks": {
           "collection_wT3k3q": {
             "type": "collection",
+            "disabled": true,
             "settings": {
               "collection": "ramadan-eid-collection",
               "title": "Ramadan Kareem",
-              "grid_items_count": 8,
+              "grid_items_count": 20,
               "button_text": "View all products"
             }
           },
