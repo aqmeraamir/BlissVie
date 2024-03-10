@@ -207,9 +207,9 @@
               "content_position": "middleCenter",
               "subheading": "",
               "title": "",
-              "button_1_text": "10% off orders over 200",
+              "button_1_text": "10% off orders over 200, CODE 'SAVE10'",
               "button_1_link": "",
-              "button_2_text": "15% off orders over 400",
+              "button_2_text": "15% off orders over 400, CODE 'SAVE15'",
               "button_2_link": ""
             }
           }
@@ -1103,12 +1103,6 @@
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
           "greeting_message": "Hi, message us with any questions. We're happy to help!"
-        }
-      },
-      "316487575649303945": {
-        "type": "shopify:\/\/apps\/easify-product-options\/blocks\/app-embed-block\/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
-        "disabled": false,
-        "settings": {
         }
       }
     }
