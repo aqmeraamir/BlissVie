@@ -156,12 +156,12 @@
           "image_atCDta": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Cover_page_islamic_painting_shopify.png",
+              "image": "shopify:\/\/shop_images\/islamic_painting_cover_shopify2.png",
               "mobile_image": "shopify:\/\/shop_images\/shopify_phone_image_islamic_painting.png",
               "apply_overlay": true,
-              "content_position": "middleCenter",
+              "content_position": "middleLeft",
               "subheading": "",
-              "title": "Exclusive Ramadan Collection",
+              "title": "Ramadan Collection",
               "button_1_text": "Islamic Wall Art",
               "button_1_link": "shopify:\/\/collections\/islamic-wall-painting",
               "button_2_text": "",
