@@ -138,8 +138,36 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
+          "image_mpWkAe": {
+            "type": "image",
+            "settings": {
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "Slide title",
+              "title": "Tell your story",
+              "button_1_text": "",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          },
+          "image_atCDta": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Cover_page_islamic_painting_shopify.png",
+              "apply_overlay": true,
+              "content_position": "middleCenter",
+              "subheading": "",
+              "title": "Exclusive Ramadan Collection",
+              "button_1_text": "Islamic Wall Art",
+              "button_1_link": "shopify:\/\/collections\/islamic-wall-painting",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          },
           "0a83e65a-4ff8-4ae4-a159-2600b40cd8ef": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/B2_b32cff63-c7f5-45a9-aa86-51e996b78013.jpg",
               "mobile_image": "shopify:\/\/shop_images\/this.jpg",
@@ -151,21 +179,6 @@
               "button_1_link": "shopify:\/\/collections",
               "button_2_text": "View all products",
               "button_2_link": "shopify:\/\/collections\/all"
-            }
-          },
-          "slide-0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Design_aa2d64da-73b5-424b-a8c5-308d6e92db4f.png",
-              "mobile_image": "shopify:\/\/shop_images\/Screenshot_2023-07-22_at_7.34.59_PM.png",
-              "apply_overlay": true,
-              "content_position": "bottomRight",
-              "subheading": "",
-              "title": "Marble Collection",
-              "button_1_text": "Shop now",
-              "button_1_link": "shopify:\/\/collections\/marble",
-              "button_2_text": "",
-              "button_2_link": ""
             }
           },
           "c676fa7e-08d8-47df-a4bc-d7d5cf988901": {
@@ -185,7 +198,6 @@
           },
           "3203bfc1-dc9c-49d4-be92-71e0d94eded3": {
             "type": "image",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Design_1_3.png",
               "mobile_image": "shopify:\/\/shop_images\/Design_1_3.png",
@@ -198,28 +210,14 @@
               "button_2_text": "15% off orders over 400, CODE 'SAVE15'",
               "button_2_link": ""
             }
-          },
-          "image_atCDta": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Cover_page_islamic_painting_shopify.png",
-              "apply_overlay": true,
-              "content_position": "middleCenter",
-              "subheading": "",
-              "title": "Exclusive Ramadan Collection",
-              "button_1_text": "Islamic Wall Art",
-              "button_1_link": "shopify:\/\/collections\/islamic-wall-painting",
-              "button_2_text": "",
-              "button_2_link": ""
-            }
           }
         },
         "block_order": [
+          "image_mpWkAe",
+          "image_atCDta",
           "0a83e65a-4ff8-4ae4-a159-2600b40cd8ef",
-          "slide-0",
           "c676fa7e-08d8-47df-a4bc-d7d5cf988901",
-          "3203bfc1-dc9c-49d4-be92-71e0d94eded3",
-          "image_atCDta"
+          "3203bfc1-dc9c-49d4-be92-71e0d94eded3"
         ],
         "settings": {
           "show_fullscreen": true,
