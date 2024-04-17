@@ -579,19 +579,6 @@
               "apply_overlay": true
             }
           },
-          "collection_w8HD4t": {
-            "type": "collection",
-            "settings": {
-              "collection": "ornaments-figurines",
-              "image_alignment": "center center",
-              "content_position": "bottomLeft",
-              "subheading": "Sub-heading",
-              "title": "Figurines",
-              "button_text": "View products",
-              "button_link": "",
-              "apply_overlay": true
-            }
-          },
           "collection_i7GNCm": {
             "type": "collection",
             "settings": {
@@ -615,19 +602,6 @@
               "content_position": "bottomLeft",
               "subheading": "",
               "title": "",
-              "button_text": "View products",
-              "button_link": "",
-              "apply_overlay": true
-            }
-          },
-          "collection_H8zCBF": {
-            "type": "collection",
-            "settings": {
-              "collection": "living-bed-room-wall-art",
-              "image_alignment": "center center",
-              "content_position": "bottomLeft",
-              "subheading": "",
-              "title": "Wall Decor",
               "button_text": "View products",
               "button_link": "",
               "apply_overlay": true
@@ -678,10 +652,8 @@
         },
         "block_order": [
           "5ff19135-5db2-4287-b9ac-baf757952884",
-          "collection_w8HD4t",
           "collection_i7GNCm",
           "736a51f2-b834-4f50-ac94-8275bf075ed3-16814070223a645371-2",
-          "collection_H8zCBF",
           "26111836-81e4-4c30-a4f0-a73a87e8e8e0",
           "collection_36yJi7",
           "collection_dbqLY6"
