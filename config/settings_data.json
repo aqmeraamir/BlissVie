@@ -944,12 +944,35 @@
           "show_payment_button": true,
           "show_pickup_availability": false
         }
+      },
+      "featured_product_DdCiPL": {
+        "type": "featured-product",
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "show_headings_on_mobile": true,
+          "product": "unique-figurines-candlestick",
+          "show_vendor": false,
+          "show_sku": false,
+          "show_description": false,
+          "description_below_add_to_cart": false,
+          "selector_mode": "dropdown",
+          "show_color_swatch": false,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 0,
+          "show_price_in_button": false,
+          "show_payment_button": true,
+          "show_pickup_availability": false
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "featured-collections",
       "736a51f2-b834-4f50-ac94-8275bf075ed3",
+      "featured_product_DdCiPL",
       "cbc3eb46-0635-4463-aaf8-9444b841a2d6",
       "featured_product_38rhfP",
       "8c81192e-191e-4f5e-b689-9fede5d5974d",
