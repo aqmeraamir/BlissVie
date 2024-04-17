@@ -235,15 +235,6 @@
       "featured-collections": {
         "type": "featured-collections",
         "blocks": {
-          "collection_wT3k3q": {
-            "type": "collection",
-            "settings": {
-              "collection": "ramadan-eid-collection",
-              "title": "Ramadan Kareem",
-              "grid_items_count": 20,
-              "button_text": "View all products"
-            }
-          },
           "22398a0e-149a-430e-9e4d-8044e692f656": {
             "type": "collection",
             "settings": {
@@ -255,7 +246,6 @@
           }
         },
         "block_order": [
-          "collection_wT3k3q",
           "22398a0e-149a-430e-9e4d-8044e692f656"
         ],
         "settings": {
@@ -575,42 +565,42 @@
       "736a51f2-b834-4f50-ac94-8275bf075ed3": {
         "type": "collection-list",
         "blocks": {
-          "33caa360-9aea-4306-ae60-56c8ec081078": {
+          "5ff19135-5db2-4287-b9ac-baf757952884": {
             "type": "collection",
             "settings": {
-              "collection": "marble-wall-clock",
+              "collection": "clocks",
+              "image": "shopify:\/\/shop_images\/O1CN01AAAl9h1o3uXNzlwYr__2108765170-0-cib_637x637_cfb97da9-a019-459d-8eab-bee213ba6e3b.webp",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",
-              "title": "Marble Clocks",
+              "title": "Clocks",
+              "button_text": "",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          },
+          "collection_w8HD4t": {
+            "type": "collection",
+            "settings": {
+              "collection": "ornaments-figurines",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Figurines",
               "button_text": "View products",
               "button_link": "",
               "apply_overlay": true
             }
           },
-          "847b7feb-c29a-48bb-b6ce-98b5042e28ca": {
+          "collection_i7GNCm": {
             "type": "collection",
             "settings": {
-              "collection": "trays-plates",
-              "image": "shopify:\/\/shop_images\/H801be9f026904ac983b3a47d1acb4cd8Z.webp",
+              "collection": "ramadan-eid-collection",
+              "image": "shopify:\/\/shop_images\/bukhoor_shopify_bf91ff93-7ef8-4fee-ab39-a951fc69f909.png",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
-              "subheading": "",
-              "title": "Trays",
-              "button_text": "View products",
-              "button_link": "",
-              "apply_overlay": true
-            }
-          },
-          "21280d75-4fb8-4973-8d40-d2b35a112dfc": {
-            "type": "collection",
-            "settings": {
-              "collection": "fountains",
-              "image": "shopify:\/\/shop_images\/C_1_FNTSTN-03-GY1111.jpg",
-              "image_alignment": "center center",
-              "content_position": "bottomLeft",
-              "subheading": "",
-              "title": "Indoor fountains",
+              "subheading": "Sub-heading",
+              "title": "Gift sets",
               "button_text": "View products",
               "button_link": "",
               "apply_overlay": true
@@ -630,16 +620,15 @@
               "apply_overlay": true
             }
           },
-          "5ff19135-5db2-4287-b9ac-baf757952884": {
+          "collection_H8zCBF": {
             "type": "collection",
             "settings": {
-              "collection": "clocks",
-              "image": "shopify:\/\/shop_images\/O1CN01AAAl9h1o3uXNzlwYr__2108765170-0-cib_637x637_cfb97da9-a019-459d-8eab-bee213ba6e3b.webp",
+              "collection": "living-bed-room-wall-art",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",
-              "title": "Clocks",
-              "button_text": "",
+              "title": "Wall Decor",
+              "button_text": "View products",
               "button_link": "",
               "apply_overlay": true
             }
@@ -653,19 +642,6 @@
               "content_position": "bottomLeft",
               "subheading": "",
               "title": "Vases",
-              "button_text": "View products",
-              "button_link": "",
-              "apply_overlay": true
-            }
-          },
-          "collection_H8zCBF": {
-            "type": "collection",
-            "settings": {
-              "collection": "living-bed-room-wall-art",
-              "image_alignment": "center center",
-              "content_position": "bottomLeft",
-              "subheading": "",
-              "title": "Wall Decor",
               "button_text": "View products",
               "button_link": "",
               "apply_overlay": true
@@ -701,13 +677,12 @@
           }
         },
         "block_order": [
-          "33caa360-9aea-4306-ae60-56c8ec081078",
-          "847b7feb-c29a-48bb-b6ce-98b5042e28ca",
-          "21280d75-4fb8-4973-8d40-d2b35a112dfc",
-          "736a51f2-b834-4f50-ac94-8275bf075ed3-16814070223a645371-2",
           "5ff19135-5db2-4287-b9ac-baf757952884",
-          "26111836-81e4-4c30-a4f0-a73a87e8e8e0",
+          "collection_w8HD4t",
+          "collection_i7GNCm",
+          "736a51f2-b834-4f50-ac94-8275bf075ed3-16814070223a645371-2",
           "collection_H8zCBF",
+          "26111836-81e4-4c30-a4f0-a73a87e8e8e0",
           "collection_36yJi7",
           "collection_dbqLY6"
         ],
@@ -758,42 +733,6 @@
           "apply_overlay": true,
           "text_color": "#ffffff",
           "button_color": "#363636"
-        }
-      },
-      "39bf1be5-5952-4db2-b43f-48cc615d83b9": {
-        "type": "featured-collections",
-        "blocks": {
-          "c553eff1-09ad-4809-9dc6-dff7598aac6b": {
-            "type": "collection",
-            "settings": {
-              "collection": "crystal",
-              "title": "Crystal bits",
-              "grid_items_count": 8,
-              "button_text": "View all products"
-            }
-          },
-          "0f13f38b-09a5-4928-b317-8e415827eea3": {
-            "type": "collection",
-            "settings": {
-              "collection": "lighting",
-              "title": "",
-              "grid_items_count": 8,
-              "button_text": "View all products"
-            }
-          }
-        },
-        "block_order": [
-          "c553eff1-09ad-4809-9dc6-dff7598aac6b",
-          "0f13f38b-09a5-4928-b317-8e415827eea3"
-        ],
-        "settings": {
-          "title": "",
-          "layout_mode": "carousel",
-          "show_product_info": true,
-          "show_vendor": false,
-          "show_color_swatch": true,
-          "grid_mobile_items_per_row": "2",
-          "grid_desktop_items_per_row": 4
         }
       },
       "page-contact-template": {
@@ -918,7 +857,6 @@
           "8c81192e-191e-4f5e-b689-9fede5d5974d-collection-1",
           "ce297c5c-e43e-4ab8-a4ae-487ea371f49c"
         ],
-        "disabled": true,
         "settings": {
           "title": "Wall Art",
           "layout_mode": "grid",
@@ -929,20 +867,6 @@
           "grid_desktop_items_per_row": 4
         }
       },
-      "4204f6a7-e2dd-4b51-ae5e-3ae0364a9d33": {
-        "type": "image-with-text-overlay",
-        "disabled": true,
-        "settings": {
-          "section_size": "large",
-          "image": "shopify:\/\/shop_images\/Hca75b2ea1b6442509a7fb088269bae6eO.jpg",
-          "text_color": "#ffffff",
-          "overlay_color": "#000000",
-          "overlay_opacity": 30,
-          "subheading": "",
-          "title": "",
-          "content": ""
-        }
-      },
       "bb7dde18-0cba-4043-83e6-114e441985a6": {
         "type": "featured-collections",
         "blocks": {
@@ -950,7 +874,7 @@
             "type": "collection",
             "settings": {
               "collection": "ornaments-figurines",
-              "title": "",
+              "title": "Ornaments",
               "grid_items_count": 8,
               "button_text": "View all products"
             }
@@ -1026,17 +950,38 @@
           "grid_mobile_items_per_row": "2",
           "grid_desktop_items_per_row": 4
         }
+      },
+      "featured_product_38rhfP": {
+        "type": "featured-product",
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "show_headings_on_mobile": true,
+          "product": "islamic-wall-painting-allah-muhammad-ayah-set-of-5",
+          "show_vendor": false,
+          "show_sku": false,
+          "show_description": false,
+          "description_below_add_to_cart": true,
+          "selector_mode": "dropdown",
+          "show_color_swatch": false,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 0,
+          "show_price_in_button": false,
+          "show_payment_button": true,
+          "show_pickup_availability": false
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "featured-collections",
-      "cbc3eb46-0635-4463-aaf8-9444b841a2d6",
       "736a51f2-b834-4f50-ac94-8275bf075ed3",
-      "bb7dde18-0cba-4043-83e6-114e441985a6",
+      "cbc3eb46-0635-4463-aaf8-9444b841a2d6",
+      "featured_product_38rhfP",
       "8c81192e-191e-4f5e-b689-9fede5d5974d",
-      "4204f6a7-e2dd-4b51-ae5e-3ae0364a9d33",
-      "39bf1be5-5952-4db2-b43f-48cc615d83b9",
+      "bb7dde18-0cba-4043-83e6-114e441985a6",
       "2aec6094-fa9e-43fd-9992-367dd540e6fb",
       "f0b3d497-b62c-4269-9b4c-982b90806c55"
     ],
