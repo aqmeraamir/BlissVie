@@ -1,6 +1,7 @@
 # Bliss Vie
 
-A shopify website for home decor
+A shopify website for home decor.
+*this github is for making tweaks and changes*
 
 ---
 
