@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "heading_color": "#1c1b1b",
@@ -41,10 +50,10 @@
     "cart_enable_notes": true,
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "100",
-    "social_facebook": "https:\/\/www.facebook.com\/BlissVie1",
-    "social_instagram": "https:\/\/www.instagram.com\/blissvie.ae\/",
-    "favicon": "shopify:\/\/shop_images\/Home_logo_brown_transparent_with_text.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
+    "social_facebook": "https://www.facebook.com/BlissVie1",
+    "social_instagram": "https://www.instagram.com/blissvie.ae/",
+    "favicon": "shopify://shop_images/Home_logo_brown_transparent_with_text.png",
+    "checkout_logo_image": "shopify://shop_images/logo.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -76,7 +85,7 @@
         "type": "header",
         "settings": {
           "use_sticky_header": true,
-          "logo": "shopify:\/\/shop_images\/Bliis_Vie_Logo_transparent_2000x1000_cfa82efa-b94f-4598-86ef-8378da37a93c.png",
+          "logo": "shopify://shop_images/Bliis_Vie_Logo_transparent_2000x1000_cfa82efa-b94f-4598-86ef-8378da37a93c.png",
           "logo_max_width": 125,
           "mobile_logo_max_width": 90,
           "show_currency_selector": false,
@@ -97,7 +106,7 @@
             "type": "text",
             "settings": {
               "title": "About Us",
-              "content": "<p>Bliss Vie, your destination for premium home decor that effortlessly combines quality and affordability. We specialize in crafting modern Nordic-inspired items designed to transform your living spaces into havens of style and comfort.<br\/>At Bliss Vie, we believe that creating a beautiful home should be accessible to all, and that's why we offer a curated selection of high-quality products at reasonable prices.<\/p>",
+              "content": "<p>Bliss Vie, your destination for premium home decor that effortlessly combines quality and affordability. We specialize in crafting modern Nordic-inspired items designed to transform your living spaces into havens of style and comfort.<br/>At Bliss Vie, we believe that creating a beautiful home should be accessible to all, and that's why we offer a curated selection of high-quality products at reasonable prices.</p>",
               "show_social_media": false
             }
           },
@@ -111,7 +120,7 @@
             "type": "text",
             "settings": {
               "title": "Contact Us",
-              "content": "<p>💬 <a href=\"https:\/\/wa.me\/971521035354\" target=\"_blank\" title=\"https:\/\/wa.me\/971521035354\">+971 52 103 5354<\/a><\/p><p>📩  <a href=\"mailto:info@blissvie.com\" target=\"_blank\" title=\"info@blissvie.com\">info@blissvie.com<\/a><\/p><p>📌 <a href=\"https:\/\/goo.gl\/maps\/xqieTtxgnqrueZVU6\" target=\"_blank\" title=\"https:\/\/goo.gl\/maps\/xqieTtxgnqrueZVU6\"><span style=\"text-decoration:underline\">Office: Sharjah Publishing City, Business Center - Free Zone - Al Zahia - Sharjah <\/span><\/a><\/p>",
+              "content": "<p>💬 <a href=\"https://wa.me/971521035354\" target=\"_blank\" title=\"https://wa.me/971521035354\">+971 52 103 5354</a></p><p>📩  <a href=\"mailto:info@blissvie.com\" target=\"_blank\" title=\"info@blissvie.com\">info@blissvie.com</a></p><p>📌 <a href=\"https://goo.gl/maps/xqieTtxgnqrueZVU6\" target=\"_blank\" title=\"https://goo.gl/maps/xqieTtxgnqrueZVU6\"><span style=\"text-decoration:underline\">Office: Sharjah Publishing City, Business Center - Free Zone - Al Zahia - Sharjah </span></a></p>",
               "show_social_media": true
             }
           },
@@ -141,14 +150,14 @@
           "image_mpWkAe": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/bukhoor_shopify.png",
-              "mobile_image": "shopify:\/\/shop_images\/shopify_phone_image_bukhoor.png",
+              "image": "shopify://shop_images/bukhoor_shopify.png",
+              "mobile_image": "shopify://shop_images/shopify_phone_image_bukhoor.png",
               "apply_overlay": true,
               "content_position": "bottomLeft",
               "subheading": "",
               "title": "EXCLUSIVE GIFT SETS",
               "button_1_text": "Crystal BUkhoor",
-              "button_1_link": "https:\/\/blissvie.com\/collections\/ramadan-eid-collection\/products\/crystal-glass-bakhoor-incense-burner-gift-set",
+              "button_1_link": "https://blissvie.com/collections/ramadan-eid-collection/products/crystal-glass-bakhoor-incense-burner-gift-set",
               "button_2_text": "",
               "button_2_link": ""
             }
@@ -156,14 +165,14 @@
           "image_atCDta": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/islamic_painting_cover_shopify2.png",
-              "mobile_image": "shopify:\/\/shop_images\/shopify_phone_image_islamic_painting.png",
+              "image": "shopify://shop_images/islamic_painting_cover_shopify2.png",
+              "mobile_image": "shopify://shop_images/shopify_phone_image_islamic_painting.png",
               "apply_overlay": true,
               "content_position": "bottomLeft",
               "subheading": "exclusive",
               "title": "ISLAMIC WALL ART",
               "button_1_text": "SHOp NOW",
-              "button_1_link": "shopify:\/\/collections\/islamic-wall-painting",
+              "button_1_link": "shopify://collections/islamic-wall-painting",
               "button_2_text": "",
               "button_2_link": ""
             }
@@ -172,29 +181,29 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/B2_b32cff63-c7f5-45a9-aa86-51e996b78013.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/this.jpg",
+              "image": "shopify://shop_images/B2_b32cff63-c7f5-45a9-aa86-51e996b78013.jpg",
+              "mobile_image": "shopify://shop_images/this.jpg",
               "apply_overlay": true,
               "content_position": "bottomCenter",
               "subheading": "",
               "title": "ELevate home living!",
               "button_1_text": "Shop by collection",
-              "button_1_link": "shopify:\/\/collections",
+              "button_1_link": "shopify://collections",
               "button_2_text": "View all products",
-              "button_2_link": "shopify:\/\/collections\/all"
+              "button_2_link": "shopify://collections/all"
             }
           },
           "c676fa7e-08d8-47df-a4bc-d7d5cf988901": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1_bed1197e-4479-413d-a6c4-1af79eb59f56.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/Ha6c3caed10f64b89a588b72a6d22de0.jpg",
+              "image": "shopify://shop_images/1_bed1197e-4479-413d-a6c4-1af79eb59f56.jpg",
+              "mobile_image": "shopify://shop_images/Ha6c3caed10f64b89a588b72a6d22de0.jpg",
               "apply_overlay": false,
               "content_position": "bottomLeft",
               "subheading": "",
               "title": "",
               "button_1_text": "Shop now",
-              "button_1_link": "shopify:\/\/collections\/ornaments-figurines",
+              "button_1_link": "shopify://collections/ornaments-figurines",
               "button_2_text": "",
               "button_2_link": ""
             }
@@ -202,8 +211,8 @@
           "3203bfc1-dc9c-49d4-be92-71e0d94eded3": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Design_1_3.png",
-              "mobile_image": "shopify:\/\/shop_images\/Design_1_3.png",
+              "image": "shopify://shop_images/Design_1_3.png",
+              "mobile_image": "shopify://shop_images/Design_1_3.png",
               "apply_overlay": true,
               "content_position": "middleCenter",
               "subheading": "",
@@ -363,7 +372,7 @@
               "title": "2000",
               "subheading": "Sub-heading",
               "heading": "Heading",
-              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
             }
           },
           "item-1": {
@@ -373,7 +382,7 @@
               "title": "2001",
               "subheading": "Sub-heading",
               "heading": "Heading",
-              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
             }
           },
           "item-2": {
@@ -383,7 +392,7 @@
               "title": "2002",
               "subheading": "Sub-heading",
               "heading": "Heading",
-              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
             }
           }
         },
@@ -402,7 +411,7 @@
           "blog-0": {
             "type": "blog",
             "settings": {
-              "blog": "news"
+              "blog": "bliss-vie-blogs"
             }
           }
         },
@@ -501,7 +510,7 @@
           "text_color": "#ffffff",
           "apply_overlay": true,
           "title": "Our story",
-          "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          "content": "<p>Add your own custom content to explain your processes...</p>"
         }
       },
       "product-template": {
@@ -550,7 +559,7 @@
           "show_only_for_visitors": true,
           "show_only_once": true,
           "title": "Popup",
-          "content": "<p>You can use this popup to display some useful information to your customers.<\/p>",
+          "content": "<p>You can use this popup to display some useful information to your customers.</p>",
           "show_newsletter": true,
           "apparition_delay": 5
         }
@@ -569,7 +578,7 @@
             "type": "collection",
             "settings": {
               "collection": "clocks",
-              "image": "shopify:\/\/shop_images\/O1CN01AAAl9h1o3uXNzlwYr__2108765170-0-cib_637x637_cfb97da9-a019-459d-8eab-bee213ba6e3b.webp",
+              "image": "shopify://shop_images/O1CN01AAAl9h1o3uXNzlwYr__2108765170-0-cib_637x637_cfb97da9-a019-459d-8eab-bee213ba6e3b.webp",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",
@@ -583,7 +592,7 @@
             "type": "collection",
             "settings": {
               "collection": "gifts-and-catalogs",
-              "image": "shopify:\/\/shop_images\/bukhoor_shopify_bf91ff93-7ef8-4fee-ab39-a951fc69f909.png",
+              "image": "shopify://shop_images/bukhoor_shopify_bf91ff93-7ef8-4fee-ab39-a951fc69f909.png",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",
@@ -610,7 +619,7 @@
             "type": "collection",
             "settings": {
               "collection": "vases-bowls",
-              "image": "shopify:\/\/shop_images\/1_4_0551be64-3154-4c83-962d-00ca0703d81b.jpg",
+              "image": "shopify://shop_images/1_4_0551be64-3154-4c83-962d-00ca0703d81b.jpg",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",
@@ -624,7 +633,7 @@
             "type": "collection",
             "settings": {
               "collection": "islamic-wall-painting",
-              "image": "shopify:\/\/shop_images\/97_0b4a762f-57bb-46f4-a3c7-de33e38e27dd.jpg",
+              "image": "shopify://shop_images/97_0b4a762f-57bb-46f4-a3c7-de33e38e27dd.jpg",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",
@@ -638,7 +647,7 @@
             "type": "collection",
             "settings": {
               "collection": "living-bed-room-wall-art",
-              "image": "shopify:\/\/shop_images\/O1CN01Q4vyka26P7zx7TSXO__2214547937653-0-cib.jpg",
+              "image": "shopify://shop_images/O1CN01Q4vyka26P7zx7TSXO__2214547937653-0-cib.jpg",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "",
@@ -721,8 +730,7 @@
         "block_order": [
           "page-contact-template-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "page-faq-template": {
         "type": "page-faq-template",
@@ -737,21 +745,21 @@
             "type": "question",
             "settings": {
               "title": "Do you ship overseas?",
-              "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+              "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
             }
           },
           "page-faq-template-2": {
             "type": "question",
             "settings": {
               "title": "How long will it take to get my order?",
-              "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+              "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
             }
           },
           "page-faq-template-3": {
             "type": "question",
             "settings": {
               "title": "What shipping carriers do you use?",
-              "answer": "<p>We use all major carriers, and local courier partners. You’ll be asked to select a delivery method during checkout.<\/p>"
+              "answer": "<p>We use all major carriers, and local courier partners. You’ll be asked to select a delivery method during checkout.</p>"
             }
           },
           "page-faq-template-4": {
@@ -764,14 +772,14 @@
             "type": "question",
             "settings": {
               "title": "Can I return my product?",
-              "answer": "<p>We always aim for make sure our customers love our products, but if you do need to return an order, we’re happy to help. Just email us directly and we’ll take you through the process.<\/p>"
+              "answer": "<p>We always aim for make sure our customers love our products, but if you do need to return an order, we’re happy to help. Just email us directly and we’ll take you through the process.</p>"
             }
           },
           "page-faq-template-6": {
             "type": "question",
             "settings": {
               "title": "Can I get my product personalized?",
-              "answer": "<p>It depends on the creator and the product. All options are outlined on the product page, so look out for customization options there.<\/p>"
+              "answer": "<p>It depends on the creator and the product. All options are outlined on the product page, so look out for customization options there.</p>"
             }
           },
           "page-faq-template-7": {
@@ -784,7 +792,7 @@
             "type": "question",
             "settings": {
               "title": "Any question?",
-              "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+              "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
             }
           }
         },
@@ -799,8 +807,7 @@
           "page-faq-template-7",
           "page-faq-template-8"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "8c81192e-191e-4f5e-b689-9fede5d5974d": {
         "type": "featured-collections",
@@ -980,61 +987,13 @@
       "f0b3d497-b62c-4269-9b4c-982b90806c55"
     ],
     "blocks": {
-      "11354984448963461329": {
-        "type": "shopify:\/\/apps\/g-translate\/blocks\/dropdown_with_flags\/408a74ac-f92d-43cf-a1b1-a044341e66bd",
-        "disabled": true,
-        "settings": {
-          "horizontal_position": "left",
-          "vertical_position": "bottom",
-          "open_direction": "bottom",
-          "native_language_names": true,
-          "flag_size": "32",
-          "flag_style": "2d",
-          "switcher_text_color": "#666666",
-          "switcher_arrow_color": "#666666",
-          "switcher_border_color": "#cccccc",
-          "switcher_background_color": "#ffffff",
-          "switcher_background_shadow_color": "#efefef",
-          "switcher_background_hover_color": "#ffffff",
-          "dropdown_text_color": "#000000",
-          "dropdown_hover_color": "#ffffff",
-          "dropdown_background_color": "#eeeeee",
-          "wrapper_selector": "",
-          "custom_css": ""
-        }
-      },
-      "17815724188505846297": {
-        "type": "shopify:\/\/apps\/g-translate\/blocks\/flags_name\/408a74ac-f92d-43cf-a1b1-a044341e66bd",
-        "disabled": true,
-        "settings": {
-          "horizontal_position": "right",
-          "vertical_position": "top",
-          "native_language_names": true,
-          "flag_size": "24",
-          "flag_style": "2d",
-          "wrapper_selector": "",
-          "custom_css": ""
-        }
-      },
-      "6623373142120236592": {
-        "type": "shopify:\/\/apps\/g-translate\/blocks\/lang_names\/408a74ac-f92d-43cf-a1b1-a044341e66bd",
-        "disabled": false,
-        "settings": {
-          "horizontal_position": "right",
-          "vertical_position": "top",
-          "native_language_names": true,
-          "wrapper_selector": ".SidebarMenu__Nav--primary",
-          "custom_css": ".gtranslate_wrapper {\nposition: absolute!important;\ntop: 10px!important;\nright: 3%!important;\nz-index:99999!important;\n}\n\n.glink {\ncolor:white!important;\npadding:4px!important;\n}\n\n\n.gt_container--86j4gi .glink {\nposition:relative!important;\ntop:15px!important;\n}"
-        }
-      },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#806457",
@@ -1128,7 +1087,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>",
                 "show_social_media": true
               }
             },
@@ -1142,7 +1101,7 @@
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.</p>"
               }
             }
           },
@@ -1278,7 +1237,7 @@
                 "title": "2000",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
               }
             },
             "item-1": {
@@ -1288,7 +1247,7 @@
                 "title": "2001",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
               }
             },
             "item-2": {
@@ -1298,7 +1257,7 @@
                 "title": "2002",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
               }
             }
           },
@@ -1398,7 +1357,7 @@
             "text_color": "#ffffff",
             "apply_overlay": true,
             "title": "Our story",
-            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+            "content": "<p>Add your own custom content to explain your processes...</p>"
           }
         },
         "product-template": {
@@ -1516,7 +1475,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>",
                 "show_social_media": true
               }
             },
@@ -1530,7 +1489,7 @@
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.</p>"
               }
             }
           },
@@ -1666,7 +1625,7 @@
                 "title": "2000",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
               }
             },
             "item-1": {
@@ -1676,7 +1635,7 @@
                 "title": "2001",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
               }
             },
             "item-2": {
@@ -1686,7 +1645,7 @@
                 "title": "2002",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
               }
             }
           },
@@ -1786,7 +1745,7 @@
             "text_color": "#ffffff",
             "apply_overlay": true,
             "title": "Our story",
-            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+            "content": "<p>Add your own custom content to explain your processes...</p>"
           }
         },
         "product-template": {
@@ -1905,7 +1864,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>",
                 "show_social_media": true
               }
             },
@@ -1919,7 +1878,7 @@
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.</p>"
               }
             }
           },
@@ -2055,7 +2014,7 @@
                 "title": "2000",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
               }
             },
             "item-1": {
@@ -2065,7 +2024,7 @@
                 "title": "2001",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
               }
             },
             "item-2": {
@@ -2075,7 +2034,7 @@
                 "title": "2002",
                 "subheading": "Sub-heading",
                 "heading": "Heading",
-                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+                "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
               }
             }
           },
@@ -2175,7 +2134,7 @@
             "text_color": "#ffffff",
             "apply_overlay": true,
             "title": "Our story",
-            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+            "content": "<p>Add your own custom content to explain your processes...</p>"
           }
         },
         "product-template": {
